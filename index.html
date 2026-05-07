@@ -2021,6 +2021,7 @@ if (window.bgmPlayer) {
 &lt;!-- 1. 돈 표시 영역--&gt;
 (unless: (passage:)&#39;s tags contains &quot;hide-score&quot;)[
     &lt;div class=&quot;top-bar&quot;&gt;
+    (if: $money &gt; 0)[
         (if: $LoopN &gt;= 2)[
              $LoopN회차ㅤ│ㅤ
         ]
@@ -2028,7 +2029,7 @@ if (window.bgmPlayer) {
             KARMA $relationship ㅤ│ㅤ
         ]
         소지금ㅤ$money원
-    &lt;/div&gt;]
+    &lt;/div&gt;]]
 
 
 &lt;!-- 2. 초기화 및 음악 스크립트 (모두 중괄호 안에 넣어 공백 제거) --&gt;

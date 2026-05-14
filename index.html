@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play 럭키 데이즈.</tw-noscript></noscript></tw-story>
-<tw-storydata name="럭키 데이즈" startnode="99" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="D34DC0C5-66FD-4D6A-B54D-8EBBE30AC70D" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* 전체 배경 및 폰트 설정 */
+<tw-storydata name="럭키 데이즈" startnode="99" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="D34DC0C5-66FD-4D6A-B54D-8EBBE30AC70D" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* 전체 배경 및 폰트 설정 */
 tw-story {
   padding-top: 50px;
   background-color: #17171b;
@@ -1592,7 +1592,7 @@ if (window.bgmPlayer) {
 [(link:&quot;휠체어 탄 손님이 있던 곳으로 간다&quot;)[(set: $relationship to it -1, $money to it +15000)(go-to: &quot;S1 - 10&quot;)]]
 {
 (if: $relationship &gt; 12)[
-    (link-goto: &quot;산모를 부축해준다&quot;, &quot;S21-1&quot;)
+    (link-goto: &quot;산모를 부축해준다&quot;, &quot;S21 - 1&quot;)
 ]
 }</tw-passagedata><tw-passagedata pid="67" name="S200 - 1" tags="" position="1300,575" size="100,100">전화를 받자마자 아내의 말이 매섭게 휘몰아쳤다.
 
@@ -1929,7 +1929,7 @@ if (window.bgmPlayer) {
 
 차가 도착하고 손님은 안쪽 골목을 가르켰다. 나는 휘파람을 불며 짐을 옮겼다.
 
-
+&lt;/script&gt;(set: $alley to true)(set:$LockStory to true)(set:$relationship to 15)
 {
 (if: $alley is true)[
     &lt;!-- 1행: A6 보유 시 --&gt;
@@ -1960,15 +1960,13 @@ if (window.bgmPlayer) {
 (text-colour:#b2f2bb)[&quot;두분 잘 다녀 오세요!&quot;]
 
 {
-&lt;!-- 1. 첫 번째 행: 항상 노출 (클릭 시 A12 보유 상태로 변경) --&gt;
-(link: &quot;다음 배차로 향한다&quot;)[
-    (set: $CLockEvent to true) &lt;!-- A12 보유 설정 --&gt;
-    (goto: &quot;S2 - 20&quot;)
+&lt;!-- 1. 첫 번째 행: 항상 노출  --&gt;
+(link: &quot;다음 배차로 향한다&quot;)[(goto: &quot;S2 - 20&quot;)
 ]
 
 &lt;!-- 2. 두 번째 행: A7 보유, A12 미보유, 관계수치 10 초과 시 노출 --&gt;
 (if: $LockStory is true and $CLockEvent is false and $relationship &gt; 10)[
-    (link-goto: &quot;아내와 걸어놓은 자물쇠를 확인해본다&quot;, &quot;S209-1&quot;)
+    (link-goto: &quot;아내와 걸어놓은 자물쇠를 확인해본다&quot;, &quot;S209 - 1&quot;)
 ]
 }</tw-passagedata><tw-passagedata pid="85" name="S209 - 1" tags="" position="1400,2075" size="100,100">커플들을 보내고 다음 배차로 가려는 찰나, 갑작스럽게 커플들의
 자물쇠 이야기가 머릿속에 맴돌아 나도 잠시 남산에 올라가보기로 했다.
@@ -1995,7 +1993,7 @@ if (window.bgmPlayer) {
 나는 영영 그런 아내를 구하지 못하게 되는 것일까.
 
 
-[(link:&quot;다음 장소로 이동한다&quot;)[(go-to:&quot;S - 10&quot;)]]</tw-passagedata><tw-passagedata pid="87" name="S211" tags="" position="1350,2575" size="100,100">집안 분위기가 똑 같다. 아내가 또 잘못돼 있을 것만 같다. 
+[(link:&quot;다음 장소로 이동한다&quot;)[(go-to:&quot;S1 - 10&quot;)]]</tw-passagedata><tw-passagedata pid="87" name="S211" tags="" position="1350,2575" size="100,100">집안 분위기가 똑 같다. 아내가 또 잘못돼 있을 것만 같다. 
 나는 아내를 불렀고, 아내는 응답이 없다. 늘 그랬든 열려있는 방문, 
 나는 아침에 꾼 꿈에 갇혀버린 것일까. 나는 왜 이것을 반복하고 있을까. 
 

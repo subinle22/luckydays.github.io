@@ -18,6 +18,7 @@ tw-story {
   font-family: "Gowun Batang", serif;
   font-weight: 400;
   font-style: normal;
+    font-size: 20px;
 }
 
 .gowun-batang-bold {
@@ -448,7 +449,7 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
         var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/i1efgjoitbhb2035faglb/V21.mp3?rlkey=hsd7np0aofz07rb0ajj7xq1xr&amp;st=pu016fsa&amp;dl=1&quot;);
         sfx.volume = 0.6; // 볼륨 설정 (0~1)
         sfx.play();
-    &lt;/script&gt;(set: $money to it -5000)(go-to:&quot;S1 - 101-4&quot;)]]
+    &lt;/script&gt;(go-to:&quot;S1 - 101-4&quot;)]]
 
 &lt;script&gt;
     if (window.globalBGM) {
@@ -475,7 +476,7 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
 그렇게 약간의 해프닝이 생겼지만 별 문제 없이 지나갔다.
 
 
-(text-colour:(hsl:0,1,0.7647,0.65))[[다음으로&gt; -&gt;S1 - 11]]
+(text-colour:(hsl:0,1,0.7647,0.65)(set: $money to it -5000))[[다음으로&gt; -&gt;S1 - 11]]
 
 &lt;script&gt;
     if (window.globalBGM) {

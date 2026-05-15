@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play 럭키 데이즈.</tw-noscript></noscript></tw-story>
-<tw-storydata name="럭키 데이즈" startnode="101" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="D34DC0C5-66FD-4D6A-B54D-8EBBE30AC70D" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* 전체 배경 및 폰트 설정 */
+<tw-storydata name="럭키 데이즈" startnode="101" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="D34DC0C5-66FD-4D6A-B54D-8EBBE30AC70D" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* 전체 배경 및 폰트 설정 */
 tw-story {
   padding-top: 50px;
   background-color: #17171b;
@@ -448,7 +448,7 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
         var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/i1efgjoitbhb2035faglb/V21.mp3?rlkey=hsd7np0aofz07rb0ajj7xq1xr&amp;st=pu016fsa&amp;dl=1&quot;);
         sfx.volume = 0.6; // 볼륨 설정 (0~1)
         sfx.play();
-    &lt;/script&gt;(set: $money to it -5000)(go-to:&quot;S1 - 101-4&quot;)]]
+    &lt;/script&gt;(go-to:&quot;S1 - 101-4&quot;)]]
 
 &lt;script&gt;
     if (window.globalBGM) {
@@ -491,7 +491,8 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
         // 4. 재생
         window.globalBGM.play();
     }
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="24" name="S1 - 11" tags="" position="1075,4500" size="100,100">시간을 확인 해 보니 꽤 늦은 시간이 되어 있었다.
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="24" name="S1 - 11" tags="" position="1075,4500" size="100,100">&lt;/script&gt;(set: $money to it -5000)
+시간을 확인 해 보니 꽤 늦은 시간이 되어 있었다.
 한손에는 방금 가게에서 산 순대를 들고 집으로 향하고 있었다.
 
 집밑에서 창문을 확인해보니 창문에는 불빛이 새어 나오고 있었다.
@@ -1670,13 +1671,13 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
 
 {
 [(link: &quot;전화를 받는다&quot;)[
-	(if: $relationship &lt; 2)[
+	(if: $relationship &lt; 3)[
 		(go-to: &quot;S200 - 1&quot;)
 	]
-	(else-if: $relationship &gt; 1 and $relationship &lt; 4)[
+	(else-if: $relationship &gt; 2 and $relationship &lt; 5)[
 		(go-to: &quot;S200 - 2&quot;)
 	]
-	(else-if: $relationship &gt; 3 and $relationship &lt; 10)[
+	(else-if: $relationship &gt; 4)[
 		(go-to: &quot;S200 - 3&quot;)
 	]
 	(else-if: $LoopN is 2 and $relationship &gt; 10)[
@@ -1685,7 +1686,8 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
 	(else-if: $LoopN is 3 and $relationship &gt; 9)[
 		(go-to: &quot;S200 - 5&quot;)
 	]
-]]
+]
+]
 }
 [(link: &quot;배차를 확인한다&quot;)[(go-to: &quot;S204&quot;)]&lt;script&gt; if (window.bgmPlayer) {
         window.bgmPlayer.pause();

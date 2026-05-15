@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play 럭키 데이즈.</tw-noscript></noscript></tw-story>
-<tw-storydata name="럭키 데이즈" startnode="99" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="D34DC0C5-66FD-4D6A-B54D-8EBBE30AC70D" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* 전체 배경 및 폰트 설정 */
+<tw-storydata name="럭키 데이즈" startnode="101" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="D34DC0C5-66FD-4D6A-B54D-8EBBE30AC70D" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* 전체 배경 및 폰트 설정 */
 tw-story {
   padding-top: 50px;
   background-color: #17171b;
@@ -18,7 +18,6 @@ tw-story {
   font-family: "Gowun Batang", serif;
   font-weight: 400;
   font-style: normal;
-    font-size: 20px;
 }
 
 .gowun-batang-bold {
@@ -122,7 +121,7 @@ tw-link:not(#타이틀_메뉴)::before {
 
 [[사운드 주소]]
 [[10번 이후]]
-[[20번 이후]]</tw-passagedata><tw-passagedata pid="4" name="DT01" tags="" position="1350,2700" size="100,100">&lt;img src=&quot;https://c.pxhere.com/images/79/eb/b6194b64c1f35084ab6560d3a79b-1709608.png!d&quot; srcset=&quot;https://c.pxhere.com/images/79/eb/b6194b64c1f35084ab6560d3a79b-1709608.png!d&quot; alt=&quot;자동차 충돌, 무료 이미지 In PxHere&quot;width=&quot;90%&quot;&gt;
+[[20번 이후]]</tw-passagedata><tw-passagedata pid="4" name="DT01" tags="" position="1300,2700" size="100,100">&lt;img src=&quot;https://c.pxhere.com/images/79/eb/b6194b64c1f35084ab6560d3a79b-1709608.png!d&quot; srcset=&quot;https://c.pxhere.com/images/79/eb/b6194b64c1f35084ab6560d3a79b-1709608.png!d&quot; alt=&quot;자동차 충돌, 무료 이미지 In PxHere&quot;width=&quot;90%&quot;&gt;
 (text-colour:#b2f2bb)[&#39;급한 일이라고...!&#39;]
 
 평소보다 훨씬 속력을 내며 차를 몰기 시작한다. 차선을 연달아 바꾸며 달리던 중...
@@ -133,7 +132,7 @@ tw-link:not(#타이틀_메뉴)::before {
 간신히 눈을 떠보니 난장판이 된 도로와 대형 트럭의 일부분이 보인다.
 시야가 어두워진다...
 
-[(link:&quot;급하더라도 안전운전은...&quot;)[(set: $money to 0)(go-to: &quot;S2 - 1&quot;)]]</tw-passagedata><tw-passagedata pid="5" name="S1 - 10" tags="" position="900,3350" size="100,100">그렇게 한바탕 폭풍이 몰아치고 손님을 찾던 도중, 길가에 휠체어를 탄 사람이 보인다.
+[(link:&quot;급하더라도 안전운전은...&quot;)[(set: $money to 0)(set: $LoopN to it +1)(go-to: &quot;S2 - 1&quot;)]]</tw-passagedata><tw-passagedata pid="5" name="S1 - 10" tags="" position="900,3350" size="100,100">그렇게 한바탕 폭풍이 몰아치고 손님을 찾던 도중, 길가에 휠체어를 탄 사람이 보인다.
 이 길까지 오는 길이 휠체어를 탄 사람들한테는 굉장히 힘든곳인데도 불구하고
 여기까지 휠체어를 타고 다닌다는것이 대단할 정도이다. 
 
@@ -425,7 +424,7 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
 갑자기 술을 마실 생각에 기분이 좋아져서 한치의 고민도 없이 술집에 들어섰다.
 
 
-(text-colour:(hsl:0,1,0.7647,0.65))[[술집으로 들어간다 -&gt;S1 - 101-3-1]] &lt;/script&gt;(set: $money to it -5000)</tw-passagedata><tw-passagedata pid="22" name="S1 - 101-3-1" tags="" position="1075,4375" size="100,100">늦은 시간이지만 여전히 시끌벅적한 내부, 그리고 여러가지 안주들이 섞인 냄새까지.
+(text-colour:(hsl:0,1,0.7647,0.65))[[술집으로 들어간다 -&gt;S1 - 101-3-1]]</tw-passagedata><tw-passagedata pid="22" name="S1 - 101-3-1" tags="" position="1075,4375" size="100,100">늦은 시간이지만 여전히 시끌벅적한 내부, 그리고 여러가지 안주들이 섞인 냄새까지.
 모든게 완벽하다. 오늘 하루의 진짜 마무리는 근심 걱정들을 술 한잔에 털어버리는거다.
 
 
@@ -449,7 +448,7 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
         var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/i1efgjoitbhb2035faglb/V21.mp3?rlkey=hsd7np0aofz07rb0ajj7xq1xr&amp;st=pu016fsa&amp;dl=1&quot;);
         sfx.volume = 0.6; // 볼륨 설정 (0~1)
         sfx.play();
-    &lt;/script&gt;(go-to:&quot;S1 - 101-4&quot;)]]
+    &lt;/script&gt;(set: $money to it -5000)(go-to:&quot;S1 - 101-4&quot;)]]
 
 &lt;script&gt;
     if (window.globalBGM) {
@@ -504,7 +503,8 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
 |w1&gt;[(link: &quot;아내를 불러본다&quot;)[
     (replace: ?w1)[나 왔어! 외쳐보지만 대답도없고 아내의 모습도 보이지 않는다.]]]
 |w2&gt;[ (link: &quot;전화를 확인해본다&quot;)[
-    (replace: ?w2)[아내의 전화는 오후에 부재중 몇통 온 것이 마지막이다.]]]</tw-passagedata><tw-passagedata pid="25" name="S1 - 12" tags="" position="1075,4625" size="100,100">{
+    (replace: ?w2)[아내의 전화는 오후에 부재중 몇통 온 것이 마지막이다.]]]</tw-passagedata><tw-passagedata pid="25" name="S1 - 12" tags="" position="1075,4625" size="100,100">&lt;img src=&quot;https://c.pxhere.com/images/bd/cb/86e0994688ca3dc6b4cf25eea92f-1710106.png!d&quot; srcset=&quot;https://c.pxhere.com/images/bd/cb/86e0994688ca3dc6b4cf25eea92f-1710106.png!d&quot; alt=&quot;아내, 무료 이미지 In PxHere&quot;width=&quot;90%&quot;&gt;
+{
 (if: $FLoop1 is true)[
 
 (text-colour:#ff6b6b)[&quot;...여보?&quot;]&lt;br&gt;
@@ -638,19 +638,48 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
 점점 내 의식이 멀어져 가는게 느껴진다...
 
 
-[(link:&quot;다음으로?&quot;)[&lt;script&gt;
-        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/k63j04alvd3nuuxn7f168/v32.mp3?rlkey=a742blpe561bieebk1w7hb1ev&amp;st=93ubafhu&amp;dl=1&quot;);
-        sfx.volume = 0.6; // 볼륨 설정 (0~1)
-        sfx.play();
-    &lt;/script&gt;(set: $money to 0, $FLoop1 to true)(go-to:&quot;S2 - 1&quot;)]]
+[(link: &quot;다음으로?&quot;)[
+    (set: $LoopN to it + 1)
+    (set: $money to 0)
+    (set: $FLoop1 to true)
 
-&lt;script&gt;
-    if (window.globalBGM) {
-        window.globalBGM.src = &quot;https://www.dropbox.com/scl/fi/fvaz4lb1pzym8yrgwkqso/V04.mp3?rlkey=pk6xw04c6rwuwbrb5txow568m&amp;st=mfpm9uwc&amp;dl=1&quot;;
-        window.globalBGM.loop = true; // 다시 반복 켜기
-        window.globalBGM.play();
+    {
+    (if: $LoopN is 3)[
+        (go-to: &quot;S1 - 200&quot;)
+    ]
+    (else-if: $LoopN is 2)[
+        (if: $relationship &gt; 21)[
+            (go-to: &quot;S1 - 200&quot;)
+        ]
+        (else:)[
+            (go-to: &quot;S1 - 2&quot;)
+        ]
+    ]
+    (else-if: $LoopN is 1)[
+        (go-to: &quot;S2 - 1&quot;)
+    ]
+    (else:)[
+        (go-to: &quot;S1 - 2&quot;)
+    ]
     }
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="30" name="S1 - 14-1" tags="" position="1075,4925" size="100,100">지금 이 경찰들은 내 말을 전혀 들을 기미가 보이지 않는다.
+]]
+{
+(set: _visitCount to (history: where its name is (passage:)&#39;s name)&#39;s length)
+
+(if: _visitCount is 1)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 이렇게 끝이야?]&lt;/div&gt;
+]
+(else-if: _visitCount is 2)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 또 이렇게?]&lt;/div&gt;
+]
+(else-if: _visitCount is 3)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 이제는 익숙한거 같은데]&lt;/div&gt;
+]
+(else:)[
+    &lt;!-- 네 번째 방문부터는 아무것도 출력되지 않습니다 --&gt;
+]
+}
+</tw-passagedata><tw-passagedata pid="30" name="S1 - 14-1" tags="" position="1075,4925" size="100,100">지금 이 경찰들은 내 말을 전혀 들을 기미가 보이지 않는다.
 그렇다면 어떻게 해서든 빨리 이 경찰들에게서 떨어져야한다.
 
 (text-colour:#b2f2bb)[&quot;저리가! 나한테 다가오지마!&quot;]
@@ -668,21 +697,44 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
 도대체 무슨 일이 나에게 벌어진걸까...
 
 
-[(link:&quot;다음으로?&quot;)[&lt;script&gt;
+[(link: &quot;다음으로?&quot;)[
+    &lt;script&gt;
         var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/k63j04alvd3nuuxn7f168/v32.mp3?rlkey=a742blpe561bieebk1w7hb1ev&amp;st=93ubafhu&amp;dl=1&quot;);
-        sfx.volume = 0.6; // 볼륨 설정 (0~1)
+        sfx.volume = 0.6;
         sfx.play();
     &lt;/script&gt;
-    (set: $money to 0)
-    (set: $FLoop1 to true)(go-to:&quot;S2 - 1&quot;)]]
     
-&lt;script&gt;
-    if (window.globalBGM) {
-        window.globalBGM.src = &quot;https://www.dropbox.com/scl/fi/fvaz4lb1pzym8yrgwkqso/V04.mp3?rlkey=pk6xw04c6rwuwbrb5txow568m&amp;st=mfpm9uwc&amp;dl=1&quot;;
-        window.globalBGM.loop = true; // 다시 반복 켜기
-        window.globalBGM.play();
+    (set: $money to 0)
+    (set: $FLoop1 to true)
+    (set: $LoopN to it +1)
+
+    {
+    (if: $LoopN is 2)[
+        (go-to: &quot;S1 - 2&quot;)
+    ]
+    (else:)[
+        (go-to: &quot;S2 - 1&quot;)
+    ]
     }
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="31" name="S1 - 20" tags="" position="900,2950" size="100,100">다음으로 도착한 곳에는 만삭의 임산부가 있었다. 
+]]
+{
+(set: _visitCount to (history: where its name is (passage:)&#39;s name)&#39;s length)
+
+(if: _visitCount is 1)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 이렇게 끝이야?]&lt;/div&gt;
+]
+(else-if: _visitCount is 2)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 또 이렇게?]&lt;/div&gt;
+]
+(else-if: _visitCount is 3)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 이제는 익숙한거 같은데]&lt;/div&gt;
+]
+(else:)[
+    &lt;!-- 네 번째 방문부터는 아무것도 출력되지 않습니다 --&gt;
+]
+}
+    
+</tw-passagedata><tw-passagedata pid="31" name="S1 - 20" tags="" position="900,2950" size="100,100">다음으로 도착한 곳에는 만삭의 임산부가 있었다. 
 택시를 타는것도 굉장히 힘겹게 탑승을 하며 가쁜 숨을 내쉬며 다급하게 이야기했다.
 
 (text-colour:#e64980)[&quot;기사님... 병원... 산부인과 좀... 빨리...&quot;]
@@ -769,7 +821,16 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
             window.globalBGM.play();
         }
     }, 3000);
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="35" name="S1 - 400" tags="" position="1200,4925" size="100,100">&lt;img src=&quot;https://c.pxhere.com/images/05/68/ee1777f86d1a76b873623995f087-1709610.png!d&quot; srcset=&quot;https://c.pxhere.com/images/05/68/ee1777f86d1a76b873623995f087-1709610.png!d&quot; alt=&quot;가을, 무료 이미지 In PxHere&quot;width=&quot;90%&quot;&gt;
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="35" name="S1 - 400" tags="" position="1200,4925" size="100,100">{
+&lt;!-- &#39;getPrepared&#39;라는 변수가 false(거짓)일 때만 실행 --&gt;
+(if: $getPrepared is not true)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 베란다의 그림자]&lt;/div&gt;
+    
+    &lt;!-- 획득했으므로 변수를 true로 변경하여 다음엔 안 뜨게 함 --&gt;
+    (set: $getPrepared to true)
+]
+}
+&lt;img src=&quot;https://c.pxhere.com/images/05/68/ee1777f86d1a76b873623995f087-1709610.png!d&quot; srcset=&quot;https://c.pxhere.com/images/05/68/ee1777f86d1a76b873623995f087-1709610.png!d&quot; alt=&quot;가을, 무료 이미지 In PxHere&quot;width=&quot;90%&quot;&gt;
 지금 이 상황에 고민할 틈은 없다. 지금은 그냥 도망쳐야한다.
 
 (text-colour:#22b8cf)[&quot;어...어어...? 거기서!&quot;]
@@ -790,31 +851,42 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
 
 {
 (if: $FLoop1 is false)[
-    &lt;!-- 1. R1 미보유 시: 일반 선택지 출력 --&gt;
     [(link: &quot;다음으로?&quot;)[
         (set: $money to 0)
         (set: $FLoop1 to true)
         (set: $fall to true)
-        (go-to: &quot;S2 - 1&quot;)
-    ]]]
+        (set: $LoopN to it + 1)
+        
+        (if: $LoopN is 2)[
+            (go-to: &quot;S1 - 2&quot;)
+        ]
+        (else:)[
+            (go-to: &quot;S2 - 1&quot;)
+        ]
+    ]]
+]
 (else:)[
-    &lt;!-- 2. R1 보유 시: 변경된 대사 선택지 출력 --&gt;
+    (if: $A2 is true and $LoopN is 2)[
+        [(link: &quot;이제 포기다&quot;)[
+            (go-to: &quot;E04&quot;)
+        ]]
+    ]
+
     [(link: &quot;왜 가능할 거라고 생각했을까...&quot;)[
         (set: $money to 0)
         (set: $fall to true)
-        (go-to: &quot;S2 - 1&quot;)
-    ]]]
+        (set: $LoopN to it + 1)
+        
+        (if: $LoopN is 2)[
+            (go-to: &quot;S1 - 2&quot;)
+        ]
+        (else:)[
+            (go-to: &quot;S2 - 1&quot;)
+        ]
+    ]]
+]
 }
-
-[&lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 베란다의 그림자]&lt;/div&gt;]
-
-&lt;script&gt;
-    if (window.globalBGM) {
-        window.globalBGM.src = &quot;https://www.dropbox.com/scl/fi/fvaz4lb1pzym8yrgwkqso/V04.mp3?rlkey=pk6xw04c6rwuwbrb5txow568m&amp;st=mfpm9uwc&amp;dl=1&quot;;
-        window.globalBGM.loop = true; // 다시 반복 켜기
-        window.globalBGM.play();
-    }
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="36" name="S1 - 5" tags="" position="800,875" size="100,100">그렇게 첫 손님을 태우고 택시 안.
+</tw-passagedata><tw-passagedata pid="36" name="S1 - 5" tags="" position="800,875" size="100,100">그렇게 첫 손님을 태우고 택시 안.
 
 택시의 엔진소리와 밖에서 진눈깨비가 내리는 소리에 더해
 손님이 누군가와 통화하는 소리가 여러 소리 사이에 들린다.
@@ -1100,32 +1172,51 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
 (text-colour:#e03131)[&quot;거의 다 왔군. 저쯤에서 내려주시게.&quot;]
 
 
-(link: &quot;준비가 됐다고?&quot;)[
-    &lt;!-- 1. 공통 데이터 처리 --&gt;
-    (set: $relationship to it + 1) &lt;!-- 관계 수치 1 상승 --&gt;
-    (set: $question to true)        &lt;!-- A1 질문 면제 설정 --&gt;
-
-    &lt;!-- 2. 조건 판정 및 이동 --&gt;
-    {
-    (if: $loop1 is true and $loop2 is true and $FLoop1 is true)[
-        &lt;!-- 4행: A3, A4, R1 보유 / Floop2 미보유 --&gt;
+{
+(if: $LoopN is 3)[
+    (link: &quot;준비라는 게 대체 뭐야?&quot;)[
+        (set: $relationship to it + 1)
+        (set: $question to true)
+        
+        (if: $loop1 is true and $loop2 is false)[
+            (set: $loop2 to true)
+        ]
+        (goto: &quot;S306&quot;)
+    ]
+]
+(else-if: $FLoop1 is true and $LoopN is not 2)[
+    (link: &quot;준비됐다니 그게 무슨 말이죠?&quot;)[
+        (set: $relationship to it + 1)
+        (set: $question to true)
+        
+        (if: $loop1 is true and $loop2 is false)[
+            (set: $loop2 to true)
+        ]
         (goto: &quot;S206&quot;)
     ]
-    (else-if: $loop1 is true and $loop2 is false and $FLoop1 is true)[
-        &lt;!-- 3행: A3, R1 보유 / A4, Floop2 미보유 (의심 발생으로 A4 활성화) --&gt;
-        (set: $loop2 to true)
-        (goto: &quot;S206&quot;)
-    ]
-    (else-if: $loop1 is false and $FLoop1 is true and $Floop2 is false)[
-        &lt;!-- 2행: R1 보유 / A3, Floop2 미보유 --&gt;
-        (goto: &quot;S206&quot;)
-    ]
-    (else:)[
-        &lt;!-- 1행: A3 미보유, R1 미보유 (기본 경로) --&gt;
+]
+(else:)[
+    (link: &quot;대체 뭐가 준비됐단 말인가요?&quot;)[
+        (set: $relationship to it + 1)
+        (set: $question to true)
         (goto: &quot;S1 - 6&quot;)
     ]
-    }
-]</tw-passagedata><tw-passagedata pid="52" name="S1 - 6" tags="" position="900,1900" size="100,100">나는 그렇게 손님을 마지막 목적지에 데려다 주었다.
+]
+}
+
+{
+(set: _visitCount to (history: where its name is (passage:)&#39;s name)&#39;s length)
+
+(if: _visitCount is 1)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 준비된 사람]&lt;/div&gt;
+]
+(else-if: _visitCount is 2)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 이거 혹시 루프물인가?]&lt;/div&gt;
+]
+(else:)[
+    &lt;!-- 세 번째 방문부터는 아무것도 띄우지 않거나, 다른 연출을 넣을 수 있습니다 --&gt;
+]
+}</tw-passagedata><tw-passagedata pid="52" name="S1 - 6" tags="" position="900,1900" size="100,100">나는 그렇게 손님을 마지막 목적지에 데려다 주었다.
 
 (text-colour:#b2f2bb)[&quot;...손님 저... 도착했습니다.&quot;]
 
@@ -1154,7 +1245,7 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
 ]]
 
 
-(text-colour:(hsl:0,1,0.7647,0.65))[[다음으로&gt; -&gt;S1 - 7]]</tw-passagedata><tw-passagedata pid="54" name="S1 - 7" tags="" position="900,2200" size="100,100">그가 내리고 한참이 지났지만, 왠지 모르게 그의 말이 한동안 내 머리속에 남아있었다.
+(text-colour:(hsl:0,1,0.7647,0.65))[[다음으로 -&gt;S1 - 7]]</tw-passagedata><tw-passagedata pid="54" name="S1 - 7" tags="" position="900,2200" size="100,100">그가 내리고 한참이 지났지만, 왠지 모르게 그의 말이 한동안 내 머리속에 남아있었다.
 이후에 나는 습관처럼 배차를 확인했다.
 
 배차를 확인해보니 그렇게 멀지않은 거리를 요청한 손님이다.
@@ -1222,6 +1313,7 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
         sfx.volume = 0.6; // 볼륨 설정 (0~1)
         sfx.play();
     &lt;/script&gt;[[골목 안까지 캐리어를 들어준다-&gt;S1 - 8-3]]]
+
 
 &lt;script&gt;
     // n초 뒤에 음악 시작
@@ -1323,7 +1415,16 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
         // 4. 재생
         window.globalBGM.play();
     }
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="59" name="S1 - 8-3-1" tags="" position="1025,2650" size="100,100">그렇게 캐리어를 끌고 손님들의 집 앞까지 도착하였다.
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="59" name="S1 - 8-3-1" tags="" position="1025,2650" size="100,100">{
+&lt;!-- &#39;getPrepared&#39;라는 변수가 false(거짓)일 때만 실행 --&gt;
+(if: $getPrepared is not true)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 그 골목을 기억하는가?]&lt;/div&gt;
+    
+    &lt;!-- 획득했으므로 변수를 true로 변경하여 다음엔 안 뜨게 함 --&gt;
+    (set: $getPrepared to true)
+]
+}
+그렇게 캐리어를 끌고 손님들의 집 앞까지 도착하였다.
 
 (text-colour:#be4bdb)[&quot;기사님, 정말 감사합니다! 정말 안그러셔도 됐는데...&quot;]
 
@@ -1407,7 +1508,16 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
         // 4. 재생
         window.globalBGM.play();
     }
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="61" name="S1 - 9-1" tags="" position="825,2800" size="100,100">커플손님이 일부러 악의를 가지고 나에게 질문을 한 것은 아닐거라 생각했다.
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="61" name="S1 - 9-1" tags="" position="825,2800" size="100,100">{
+&lt;!-- &#39;getPrepared&#39;라는 변수가 false(거짓)일 때만 실행 --&gt;
+(if: $getPrepared is not true)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 자물쇠를 풀지 말 것]&lt;/div&gt;
+    
+    &lt;!-- 획득했으므로 변수를 true로 변경하여 다음엔 안 뜨게 함 --&gt;
+    (set: $getPrepared to true)
+]
+}
+커플손님이 일부러 악의를 가지고 나에게 질문을 한 것은 아닐거라 생각했다.
 그렇다고 굳이 무시할 이유도 없었다.
 
 (text-colour:#b2f2bb)[&quot;네, 뭐... 저도 남산에 옛날에 가본적은 있죠.&quot;]
@@ -1436,7 +1546,12 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
         var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nioh6zulxpg0ffdl6jsk0/V03.mp3?rlkey=sq5w2je61ulxrpr2rbfqzu4sd&amp;st=pbgmu8aa&amp;dl=1&quot;);
         sfx.volume = 0.6; // 볼륨 설정 (0~1)
         sfx.play();
-    &lt;/script&gt;(go-to:&quot;S1 - 20&quot;)]]</tw-passagedata><tw-passagedata pid="62" name="S1 - 9-2" tags="" position="975,2800" size="100,100">나는 그 말이 충분히 선을 넘는다고 생각했다. 커플은 그냥 순수한 의도로
+    &lt;/script&gt;(go-to:&quot;S1 - 20&quot;)]]
+{
+[(if: $LockStory is true and $CLockEvent is false and $relationship &gt; 10)[
+    (link-goto: &quot;아내와 걸어놓은 자물쇠를 확인해본다&quot;, &quot;S209 - 1&quot;)
+]]
+}    </tw-passagedata><tw-passagedata pid="62" name="S1 - 9-2" tags="" position="975,2800" size="100,100">나는 그 말이 충분히 선을 넘는다고 생각했다. 커플은 그냥 순수한 의도로
 물어본 것 이라고 해도 예민한 상황에 괜히 화가 났다.
 
 (text-colour:#b2f2bb)[&quot;손님, 연세라구요?! 아직 그 말을 들을 나이는 아닌거 같습니다?&quot;]
@@ -1456,9 +1571,60 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
         var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nioh6zulxpg0ffdl6jsk0/V03.mp3?rlkey=sq5w2je61ulxrpr2rbfqzu4sd&amp;st=pbgmu8aa&amp;dl=1&quot;);
         sfx.volume = 0.6; // 볼륨 설정 (0~1)
         sfx.play();
-    &lt;/script&gt;(go-to:&quot;S1 - 20&quot;)]]</tw-passagedata><tw-passagedata pid="63" name="S2 - 1" tags="" position="1350,325" size="100,100">(set: $LoopN to it +1)
+    &lt;/script&gt;(go-to:&quot;S1 - 20&quot;)]]</tw-passagedata><tw-passagedata pid="63" name="S1-13-0" tags="" position="1250,4625" size="100,100">&lt;img src=&quot;https://c.pxhere.com/images/7f/8a/cb7c926aa13ae5d30e5c35e9994e-1709598.png!d&quot; srcset=&quot;https://c.pxhere.com/images/7f/8a/cb7c926aa13ae5d30e5c35e9994e-1709598.png!d&quot; alt=&quot;경찰, 무료 이미지 In PxHere&quot;width=&quot;90%&quot;&gt;
 
-20XX년, 여름
+
+
+(text-colour:#22b8cf)[&quot;당신은 묵비권을 행사할 수 있고...&quot;]
+
+경찰의 말과 함께 &#39;철컥&#39; 소리가 나며 내 손목에는 수갑이 채워져 있었다.
+나는 분명 방금 집에 왔는데 현행범이라니? 뭔가 잘못된게 틀림없다.
+어떡하지? 어떻게 이 상황을 빠져나와야 하지?
+
+
+[(link:&quot;해명한다&quot;)[&lt;script&gt;
+        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/fvaz4lb1pzym8yrgwkqso/V04.mp3?rlkey=pk6xw04c6rwuwbrb5txow568m&amp;st=mfpm9uwc&amp;dl=1&quot;);
+        sfx.volume = 0.6; // 볼륨 설정 (0~1)
+        sfx.play();
+    &lt;/script&gt;(go-to:&quot;S1 - 14&quot;)]] 
+[(link:&quot;저항한다&quot;)[&lt;script&gt;
+        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/k31p8ixr8l94tunjvd23l/V12.mp3?rlkey=d825pxg76j84s5g480jbt5no8&amp;st=z1bnp9qf&amp;dl=1&quot;);
+        sfx.volume = 0.6; // 볼륨 설정 (0~1)
+        sfx.play();
+    &lt;/script&gt;(go-to:&quot;S1 - 14&quot;)]]
+{
+(if: $fall is true)[
+    &lt;!-- A2 보유 시: 텍스트가 변경됨 --&gt;
+    [(link: &quot;창문쪽은... 위험할거같다...&quot;)[
+        &lt;script&gt;
+            var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/k31p8ixr8l94tunjvd23l/V12.mp3?rlkey=d825pxg76j84s5g480jbt5no8&amp;st=z1bnp9qf&amp;dl=1&quot;);
+            sfx.volume = 0.6;
+            sfx.play();
+        &lt;/script&gt;
+        (go-to: &quot;S1 - 400&quot;)
+    ]]
+]
+(else:)[
+    &lt;!-- A2 미보유 시: 기존 텍스트 유지 --&gt;
+    [(link: &quot;창문으로 도망친다&quot;)[
+        &lt;script&gt;
+            var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/k31p8ixr8l94tunjvd23l/V12.mp3?rlkey=d825pxg76j84s5g480jbt5no8&amp;st=z1bnp9qf&amp;dl=1&quot;);
+            sfx.volume = 0.6;
+            sfx.play();
+        &lt;/script&gt;
+        (go-to: &quot;S1 - 400&quot;)
+    ]]
+]
+}
+&lt;script&gt;
+    // n초 뒤에 음악 시작
+    setTimeout(function() {
+        if (window.globalBGM) {
+            window.globalBGM.src = &quot;https://www.dropbox.com/scl/fi/yjnf6u4nrdiblrb25uy6i/V14.mp3?rlkey=7gdnbe2sd4xyy0baoa4zcl8ym&amp;st=hxdxm69q&amp;dl=1&quot;;
+            window.globalBGM.play();
+        }
+    }, 2000);
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="64" name="S2 - 1" tags="" position="1350,325" size="100,100">20XX년, 여름
 그 날은 여름인데도 불구하고 진눈깨비가 내리는 아주 이상한 날이였다…
 
 나는 동묘 근처, 한 점포의 차양막 아래에 대어놓은 택시에서 놀라듯 잠에서 깼다.
@@ -1490,7 +1656,7 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
         // 3. 바로 재생
         window.globalBGM.play().catch(function(e) { console.log(&quot;재생 대기&quot;); });
     }
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="64" name="S2 - 1-10" tags="" position="1350,450" size="100,100">날씨도 이상하니 기분도 괜히 예민하고 이상해지는 것 같다.
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="65" name="S2 - 1-10" tags="" position="1350,450" size="100,100">날씨도 이상하니 기분도 괜히 예민하고 이상해지는 것 같다.
 
 (text-colour:red)[(text-style:&quot;italic&quot;,&quot;blur&quot;)[꼭 이 장면을 어디선가 본 것만 같다. 데자뷰인가?]]
 그런 생각에 빠질 때 쯤, 핸드폰에 걸려오는 한 통의 전화. 그리고 곧이어 전화 소리 사이에서 들려오는 배차 호출.
@@ -1502,38 +1668,25 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
 &#39; 역시 전화를 받아봐야하나...? &#39;
 
 
-[(link: &quot;전화를 받는다&quot;)[&lt;script&gt;
-if (window.bgmPlayer) {
-        window.bgmPlayer.pause();
-        window.bgmPlayer.currentTime = 0;
-    }
-        var sfx = new
-       Audio(&quot;https://www.dropbox.com/scl/fi/6bmj4k2cyveyvu8f1th4k/V13.mp3?rlkey=xx5umek227uau0sn93pgafm9m&amp;st=p5dt5ejp&amp;dl=1&quot;);
-        sfx.volume = 0.6; // 볼륨 설정 (0~1)
-        sfx.play();
-    &lt;/script&gt;
-    
-    &lt;!-- 1. 클릭하는 순간 점수 1점 추가 --&gt;
-    (set: $relationship to it + 1)
-
-    &lt;!-- 3. 점수 범위에 따른 패시지 이동 판정 --&gt;
-    (if: $relationship &lt; 2)[
-        &lt;!-- 2 미만 (0, 1) --&gt;
-        (goto: &quot;S200 - 1&quot;)
-    ]
-    (else-if: $relationship &gt;= 2 and $relationship &lt; 4)[
-        &lt;!-- 2 이상 4 미만 (2, 3) --&gt;
-        (goto: &quot;S200 - 2&quot;)
-    ]
-    (else-if: $relationship &gt;= 4 and $relationship &lt; 10)[
-        &lt;!-- 4 이상 10 미만 (4, 5, 6, 7, 8, 9) --&gt;
-        (goto: &quot;S200 - 3&quot;)
-    ]
-    (else:)[
-        &lt;!-- 10 이상일 경우 처리 (기본적으로 S200-3으로 보내거나 별도 지정) --&gt;
-        (goto: &quot;S200 - 3&quot;)
-    ]
+{
+[(link: &quot;전화를 받는다&quot;)[
+	(if: $relationship &lt; 2)[
+		(go-to: &quot;S200 - 1&quot;)
+	]
+	(else-if: $relationship &gt; 1 and $relationship &lt; 4)[
+		(go-to: &quot;S200 - 2&quot;)
+	]
+	(else-if: $relationship &gt; 3 and $relationship &lt; 10)[
+		(go-to: &quot;S200 - 3&quot;)
+	]
+	(else-if: $LoopN is 2 and $relationship &gt; 10)[
+		(go-to: &quot;S200 - 4&quot;)
+	]
+	(else-if: $LoopN is 3 and $relationship &gt; 9)[
+		(go-to: &quot;S200 - 5&quot;)
+	]
 ]]
+}
 [(link: &quot;배차를 확인한다&quot;)[(go-to: &quot;S204&quot;)]&lt;script&gt; if (window.bgmPlayer) {
         window.bgmPlayer.pause();
         window.bgmPlayer.currentTime = 0;
@@ -1550,14 +1703,35 @@ if (window.bgmPlayer) {
 (go-to: &quot;S2 - 11&quot;)]]
 
 &lt;script&gt;
-    // n초 뒤에 음악 시작
+    // 3.5초 뒤에 음악 시작
     setTimeout(function() {
         if (window.globalBGM) {
-            window.globalBGM.src = &quot;https://www.dropbox.com/scl/fi/zejhv1g9xbmgcpvsrgbvp/V05.mp3?rlkey=eunt13t4k0qdwah19yf88iel5&amp;st=dzeasuha&amp;dl=1&quot;;
-            window.globalBGM.play();
+            var bgm = window.globalBGM;
+            var playCount = 0; // 재생 횟수 추적
+
+            bgm.src = &quot;https://www.dropbox.com/scl/fi/zejhv1g9xbmgcpvsrgbvp/V05.mp3?rlkey=eunt13t4k0qdwah19yf88iel5&amp;st=dzeasuha&amp;dl=1&quot;;
+            bgm.loop = false; // 자동 루프 해제
+            
+            // 첫 번째 재생 시작
+            bgm.play();
+            playCount++;
+
+            // 재생 종료 이벤트 감지
+            bgm.onended = function() {
+                if (playCount &lt; 2) {
+                    // 2회 미만일 경우 다시 재생
+                    bgm.play();
+                    playCount++;
+                } else {
+                    // 2회 재생이 완료되면 소리를 완전히 비움
+                    bgm.pause();
+                    bgm.src = &quot;&quot;;      // 소리 소스 제거 (다음 입력 전까지 무음 유지)
+                    bgm.onended = null; // 이벤트 핸들러 제거
+                }
+            };
         }
     }, 3500);
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="65" name="S2 - 11" tags="" position="1400,675" size="100,100">도대체 이건 무슨 일일까. 왜 나는 겪지도 않은 하루의 일을 마치 겪은 것 처럼 
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="66" name="S2 - 11" tags="" position="1400,675" size="100,100">도대체 이건 무슨 일일까. 왜 나는 겪지도 않은 하루의 일을 마치 겪은 것 처럼 
 기억하고 있는 것일까. 한 번만 겪은 게 맞을까? 
 
 하루에 대한 기억때문에 머릿속이 깨질 것 같다. 이대로는 있을 수 없다. 
@@ -1565,19 +1739,29 @@ if (window.bgmPlayer) {
 
 나는 지금도 꿈을 꾸고 있는걸까? 현실인지 꿈인지도 솔직히 잘 모르겠다.
 
-[(link:&quot;꿈은 그냥 꿈일뿐이야...&quot;)[&lt;script&gt;
-        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nioh6zulxpg0ffdl6jsk0/V03.mp3?rlkey=sq5w2je61ulxrpr2rbfqzu4sd&amp;st=pbgmu8aa&amp;dl=1&quot;);
-        sfx.volume = 0.6; // 볼륨 설정 (0~1)
-        sfx.play();
-    &lt;/script&gt;
-   (go-to:&quot;S204&quot;)]]
-[(link:&quot;일단 집으로 가야해!&quot;)[&lt;script&gt;
-        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nioh6zulxpg0ffdl6jsk0/V03.mp3?rlkey=sq5w2je61ulxrpr2rbfqzu4sd&amp;st=pbgmu8aa&amp;dl=1&quot;);
-        sfx.volume = 0.6; // 볼륨 설정 (0~1)
-        sfx.play();
-    &lt;/script&gt;
-   (go-to:&quot;S215&quot;)]]
-   </tw-passagedata><tw-passagedata pid="66" name="S2 - 20" tags="" position="1350,2200" size="100,100">나는 곧장 남산에서 일산으로 출발하며 콜을 받았다. 산모 손님의 콜이 뻔하기 때문이다. 
+{
+(link-goto: &quot;그냥 꿈이라고 생각하는 편이 맞지&quot;, &quot;배차 호출을 확인한다&quot;)
+
+(link-goto: &quot;우선 집으로 가야해!&quot;, &quot;S215&quot;)
+
+(if: $LoopN is 2)[
+    (link-goto: &quot;119에 신고한다&quot;, &quot;S301&quot;)
+]
+
+(if: $LoopN is 3)[
+    (link-goto: &quot;아무래도 첫 번째 손님이 이상해&quot;, &quot;S2001&quot;)
+]
+}</tw-passagedata><tw-passagedata pid="67" name="S2 - 13" tags="" position="1400,4075" size="100,100">문이 강제로 열리며 경찰들이 들이닥쳤다. 주변 주민이 경찰에 신고를 한 듯하다.
+&#39;뭔가 이상하다고...!&#39;
+경찰이 다가오자 나는 다급히 입을 열었다.
+
+(text-colour:#b2f2bb)[&quot;경찰관분들! 제 말 좀 들어보십쇼! 저희 아내가...&quot;]
+
+하지만 경찰의 입에서 나온 말은 가차없었다.
+
+(text-colour:#22b8cf)[&quot;당신을 현행범으로 체포합니다.&quot;]
+
+[[다음으로 &gt; -&gt;S1-13-0]]</tw-passagedata><tw-passagedata pid="68" name="S2 - 20" tags="" position="1350,2200" size="100,100">나는 곧장 남산에서 일산으로 출발하며 콜을 받았다. 산모 손님의 콜이 뻔하기 때문이다. 
 
 (text-colour:#e64980)[&quot;기사님... 감사합니다...&quot;]
 
@@ -1594,7 +1778,7 @@ if (window.bgmPlayer) {
 (if: $relationship &gt; 12)[
     (link-goto: &quot;산모를 부축해준다&quot;, &quot;S21 - 1&quot;)
 ]
-}</tw-passagedata><tw-passagedata pid="67" name="S200 - 1" tags="" position="1300,575" size="100,100">전화를 받자마자 아내의 말이 매섭게 휘몰아쳤다.
+}</tw-passagedata><tw-passagedata pid="69" name="S200 - 1" tags="" position="1300,575" size="100,100">전화를 받자마자 아내의 말이 매섭게 휘몰아쳤다.
 
 (text-colour:#bac8ff)[&quot;여보, 생활비가 너무 모자라. 혹시 사납금이 너무 많은거야? 아니면 자꾸 돈을 쓰고 들어오는거야. 지난달보다 너무 많이 줄었어. 이제 가정 건사도 힘들 정도야.&quot;] 
 
@@ -1607,7 +1791,7 @@ if (window.bgmPlayer) {
 그렇게 우리 부부간의 대화는 그렇게 어영부영 넘어가고 나는 배차를 받으러 차를 이끌었다.
 
 
-[(link: &quot;배차위치로 이동한다&quot;)[(go-to: &quot;S204&quot;)]]</tw-passagedata><tw-passagedata pid="68" name="S200 - 2" tags="" position="1300,675" size="100,100">전화를 받으니 아내가 갑작스럽게 나에게 심부름을 시킨다.
+[(link: &quot;배차위치로 이동한다&quot;)[(go-to: &quot;S204&quot;)]]</tw-passagedata><tw-passagedata pid="70" name="S200 - 2" tags="" position="1300,675" size="100,100">전화를 받으니 아내가 갑작스럽게 나에게 심부름을 시킨다.
 
 (text-colour:#bac8ff)[&quot;여보, 오는길에 달걀, 콩나물, 시금치, 두부, 된장 1통, 라면 5봉, 그리고 우유 사와. 혹시 참외 있으면 네 개 사와.&quot;] 
 
@@ -1620,7 +1804,7 @@ if (window.bgmPlayer) {
 차를 몰고 첫 손님에게로 향하기로 한다.
 
 
-[(link: &quot;배차위치로 이동한다&quot;)[(go-to: &quot;S204&quot;)]]</tw-passagedata><tw-passagedata pid="69" name="S200 - 3" tags="" position="1400,575" size="100,100">전화를 받자마자 기다렸다는 듯이 아내의 말이 엄청나게 쏟아져 나왔다.
+[(link: &quot;배차위치로 이동한다&quot;)[(go-to: &quot;S204&quot;)]]</tw-passagedata><tw-passagedata pid="71" name="S200 - 3" tags="" position="1400,575" size="100,100">전화를 받자마자 기다렸다는 듯이 아내의 말이 엄청나게 쏟아져 나왔다.
 
 (text-colour:#bac8ff)[&quot;나 건강검진을 받았는데 아무 문제도 없대. 당신도 검진 좀 받아야 돼.&quot;]
 
@@ -1634,7 +1818,7 @@ if (window.bgmPlayer) {
 그렇게 서로 나름의 대화는 끝이 나고 나는 방금 왔던 배차를 위해 길을 재촉한다.
 
 
-[(link: &quot;배차위치로 이동한다&quot;)[(go-to: &quot;S204&quot;)]]</tw-passagedata><tw-passagedata pid="70" name="S204" tags="" position="1350,800" size="100,100">호출한 위치로 가니 그곳에서 서 있는 검은색 형체가 보이기 시작했다.
+[(link: &quot;배차위치로 이동한다&quot;)[(go-to: &quot;S204&quot;)]]</tw-passagedata><tw-passagedata pid="72" name="S204" tags="" position="1350,800" size="100,100">호출한 위치로 가니 그곳에서 서 있는 검은색 형체가 보이기 시작했다.
 그 사람은 새까만 선글라스와 판초를 입고 가만히 서서 무언가를 기다리는듯 보였다.
 
 뭔가 이상하다. 나는 왜 지금 이 상황이 너무나도 당연하다고 생각하고 있는거지?
@@ -1665,8 +1849,16 @@ if (window.bgmPlayer) {
         (goto: &quot;S204 - 2&quot;)
     ]
   ]
+]</tw-passagedata><tw-passagedata pid="73" name="S204 - 1" tags="" position="1275,925" size="100,100">{
+&lt;!-- &#39;getPrepared&#39;라는 변수가 false(거짓)일 때만 실행 --&gt;
+(if: $getPrepared is not true)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 한번은 우연, 두번은 운명]&lt;/div&gt;
+    
+    &lt;!-- 획득했으므로 변수를 true로 변경하여 다음엔 안 뜨게 함 --&gt;
+    (set: $getPrepared to true)
 ]
-</tw-passagedata><tw-passagedata pid="71" name="S204 - 1" tags="" position="1275,925" size="100,100">나는 혹시나 하는 마음에 손님에게 물어보았다.
+}
+나는 혹시나 하는 마음에 손님에게 물어보았다.
 
 (text-colour:#b2f2bb)[&quot;저... 손님, 혹시 제 꿈에 나오신적이...&quot;]
 
@@ -1681,7 +1873,16 @@ if (window.bgmPlayer) {
 
 &lt;div class=&quot;item-get&quot; animation-delay: 1s&gt;⊙[획득: 루프의심]&lt;/div&gt;
 
-[(link:&quot;목적지로 운행한다&quot;)[(set: $loop1 to true, $relationship to it +1)(go-to: &quot;S205&quot;)]] </tw-passagedata><tw-passagedata pid="72" name="S204 - 2" tags="" position="1425,925" size="100,100">머리 속에서는 아니라고 생각이 들지만, 입은 그렇지 않았다.
+[(link:&quot;목적지로 운행한다&quot;)[(set: $loop1 to true, $relationship to it +1)(go-to: &quot;S205&quot;)]]</tw-passagedata><tw-passagedata pid="74" name="S204 - 2" tags="" position="1425,925" size="100,100">{
+&lt;!-- &#39;getPrepared&#39;라는 변수가 false(거짓)일 때만 실행 --&gt;
+(if: $getPrepared is not true)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 한번은 우연, 두번은 운명]&lt;/div&gt;
+    
+    &lt;!-- 획득했으므로 변수를 true로 변경하여 다음엔 안 뜨게 함 --&gt;
+    (set: $getPrepared to true)
+]
+}
+머리 속에서는 아니라고 생각이 들지만, 입은 그렇지 않았다.
 
 (text-colour:#b2f2bb)[&quot;저... 손님, 혹시 제 꿈에 나오신적이...&quot;]
 
@@ -1694,7 +1895,7 @@ if (window.bgmPlayer) {
 일단, 손님이 탔으니 목적지까지 이동하자.
 
 
-[(link:&quot;목적지로 운행한다&quot;)[(set: $loop1 to true, $relationship to it +1)(go-to: &quot;S205&quot;)]]</tw-passagedata><tw-passagedata pid="73" name="S205" tags="" position="1350,1050" size="100,100">나는 분명 이 사람을 알고있다. 전화기를 든 모습까지 똑같다. 
+[(link:&quot;목적지로 운행한다&quot;)[(set: $loop1 to true, $relationship to it +1)(go-to: &quot;S205&quot;)]]</tw-passagedata><tw-passagedata pid="75" name="S205" tags="" position="1350,1050" size="100,100">나는 분명 이 사람을 알고있다. 전화기를 든 모습까지 똑같다. 
 조금 있으면 행선지를 바꿀 게 분명해.
 
 (text-colour:#b2f2bb)[&quot;손님, 목적지에 도착했습니다.&quot;]
@@ -1705,97 +1906,23 @@ if (window.bgmPlayer) {
 
 역시나... 꿈에서 봤던 장면과 달라지는게 하나도 없다.
 
-(if: $question is true)[
-[(link:&quot;도대체 이게 무슨 일인거지...?&quot;)[(set: $loop2 to true, $relationship to it +1)(go-to: &quot;S1 - 5-5&quot;)]]]
-(else:)[(link: &quot;손님의 말을 계속 듣는다&quot;)[(go-to: &quot;S205 - 1&quot;)]]</tw-passagedata><tw-passagedata pid="74" name="S205 - 2" tags="" position="1250,1325" size="100,100">그렇게 도착한 두 번째 목적지. 손님에게 도착했다는 말을 하려는 것도 잠시, 손님이 갑자기
-나에게 만원을 또 쥐어주며 말을 걸었다. 이 상황까지도 똑같다.
-
-(text-colour:#e03131)[&quot;내가 생각이 조금 바뀌어서 그런데... 지금 목적지 말고 종각역으로 가줄 수 있겠나?&quot;]
-
-나는 거절하지 않고 손님의 말을 계속 들었다
-그리고 손님은 나에게 의미를 알 수 없는 질문을 한번 더 해왔다.
-
-(text-colour:#e03131)[&quot;자네는 아까 내가 말했던 것들 중에 나머지인 명예, 즐거움, 돈.
-이 세가지를 돈으로 살 수 있다고 생각하는가? 돈을 돈으로 산다는 말은 조금 어색하니
-돈이 있어야 더 많은 돈을 가질 수 있는가 라는 뜻으로 알아듣게.&quot;]
-
-한 번 답변해 보았기에 더 신중히 대답할 수 있었다
-
-(text-colour:#b2f2bb)[&quot;제가 생각하기에는...&quot;]
-
-
-[(link:&quot;돈으로 안되는건 없다&quot;)[&lt;script&gt;
-        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nwbrw1ma34fzto8gwjwea/V10.mp3?rlkey=a7s5e9szrs7en4s6vn9rnqf9s&amp;st=zbi58usm&amp;dl=1&quot;);
-        sfx.volume = 0.6; // 볼륨 설정 (0~1)
-        sfx.play();
-    &lt;/script&gt;(set: $relationship to it -1)(set: $money to it +10000))(go-to:&quot;S205 - 4&quot;)]]
-[(link:&quot;돈으로도 못사는 것들이 있다&quot;)[&lt;script&gt;
-        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nwbrw1ma34fzto8gwjwea/V10.mp3?rlkey=a7s5e9szrs7en4s6vn9rnqf9s&amp;st=zbi58usm&amp;dl=1&quot;);
-        sfx.volume = 0.6; // 볼륨 설정 (0~1)
-        sfx.play();
-    &lt;/script&gt;(set: $relationship to it +1)(set: $money to it +10000))(go-to:&quot;S205 - 3&quot;)]]
-[(link:&quot;잘 모르겠다&quot;)[&lt;script&gt;
-        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nwbrw1ma34fzto8gwjwea/V10.mp3?rlkey=a7s5e9szrs7en4s6vn9rnqf9s&amp;st=zbi58usm&amp;dl=1&quot;);
-        sfx.volume = 0.6; // 볼륨 설정 (0~1)
-        sfx.play();
-    &lt;/script&gt;(set: $relationship to it +1)(set: $money to it +10000))(go-to:&quot;S205 - 3&quot;)]]</tw-passagedata><tw-passagedata pid="75" name="S205 - 3" tags="" position="1350,1325" size="100,100">세 번째 목적지에 도착했지만, 손님은 곧바로 내리지 않았다.
-나는 분명 겪어봤던 일을 다시 겪는 것 같다는 확신이 들어 소름이 돋았다
-
-손님은 잠시 창밖을 바라보더니 무언가 확인한 것처럼 고개를 작게 끄덕이고 다시 나에게 말을 걸었다.
-
-(text-colour:#e03131)[&quot;흠... 아직은 아니야. 그냥 창신동으로 가세.&quot;]
-
-대체 무엇이 아니라는 걸까.
-
-(text-colour:#e03131)[&quot;마지막으로 하나만 더 묻지. 자네는, 지금 자네의 삶이 어떤가?]
-
-진심을 말할 때다
-
-(text-colour:#b2f2bb)[&quot;지금은...&quot;]
-
-
-[(link:&quot;소소한 행복이 있다&quot;)[&lt;script&gt;
-        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nwbrw1ma34fzto8gwjwea/V10.mp3?rlkey=a7s5e9szrs7en4s6vn9rnqf9s&amp;st=zbi58usm&amp;dl=1&quot;);
-        sfx.volume = 0.6; // 볼륨 설정 (0~1)
-        sfx.play();
-    &lt;/script&gt;(set: $relationship to it +1)(set: $money to it +10000))(go-to:&quot;S1 - 5-5&quot;)]]
-[(link:&quot;지긋지긋하다 이젠 끝내고 싶다&quot;)[&lt;script&gt;
-        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nwbrw1ma34fzto8gwjwea/V10.mp3?rlkey=a7s5e9szrs7en4s6vn9rnqf9s&amp;st=zbi58usm&amp;dl=1&quot;);
-        sfx.volume = 0.6; // 볼륨 설정 (0~1)
-        sfx.play();
-    &lt;/script&gt;(set: $relationship to it -1)(set: $money to it +10000))(go-to:&quot;S205 - 4&quot;)]]
-[(link:&quot;아직 잘 모르겠다&quot;)[&lt;script&gt;
-        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nwbrw1ma34fzto8gwjwea/V10.mp3?rlkey=a7s5e9szrs7en4s6vn9rnqf9s&amp;st=zbi58usm&amp;dl=1&quot;);
-        sfx.volume = 0.6; // 볼륨 설정 (0~1)
-        sfx.play();
-    &lt;/script&gt;(set: $relationship to it +1)(set: $money to it +10000))(go-to:&quot;S1 - 5-5&quot;)]]</tw-passagedata><tw-passagedata pid="76" name="S205 - 4" tags="" position="1450,1325" size="100,100">(text-colour:#e03131)[&quot;...정신을 못 차린것 같구만. 정말 실망이야.&quot;]
-
-이건 정말 다 들어 본 말이다.
-
-(text-colour:#e03131)[&quot;이만 내려보도록 하지. 이쯤에서 내려주게나.&quot;]
-
-이 말 또한 마찬가지다. 머리가 너무 복잡했다.
-
-{
-(if: $loop1 is true and $FLoop2 is false)[
-    &lt;!-- 2행: A3 보유, R2 미보유 --&gt;
-
-    &lt;!-- A4 루프의심2 발생 ($loop2 변수를 true로 설정) --&gt;
-    (set: $loop2 to true)
-    
-    (link-goto: &quot;진짜 이상하다...&quot;, &quot;S206&quot;)
+(if: $LoopN is 3)[
+    [(link: &quot;도대체 당신은 누구야? 왜 이러는 거야 대체...&quot;)[
+        (go-to: &quot;S5 - 1-2&quot;)
+    ]]
 ]
-(else-if: $loop1 is false and $FLoop2 is false)[
-    &lt;!-- 3행: A3 미보유, R2 미보유 --&gt;
-   
-    (link-goto: &quot;진짜 이상하다...&quot;, &quot;S206&quot;)
+(else-if: $question is true)[
+    [(link: &quot;도대체 이게 무슨 일인거지...?&quot;)[
+        (set: $loop2 to true)
+        (set: $relationship to it + 1)
+        (go-to: &quot;S1 - 5-5&quot;)
+    ]]
 ]
 (else:)[
-    &lt;!-- 1행: 기본 상황 (또는 R2 보유 시 등) --&gt;
-    
-    (link-goto: &quot;손님을 내려준다&quot;, &quot;S206&quot;)
-]
-}</tw-passagedata><tw-passagedata pid="77" name="S205 - 1" tags="" position="1350,1200" size="100,100">갑자기 목적지를 다른곳으로 바꾸려는 손님.
+    [(link: &quot;손님의 말을 계속 듣는다&quot;)[
+        (go-to: &quot;S205 - 1&quot;)
+    ]]
+]</tw-passagedata><tw-passagedata pid="76" name="S205 - 1" tags="" position="1350,1200" size="100,100">갑자기 목적지를 다른곳으로 바꾸려는 손님.
 나는 순간 이 일을 겪어보았다는 의심이 강하게 왔다. 일부러 똑같이 말해보았다.
 
 (text-colour:#b2f2bb)[&quot;손님, 갑자기 이렇게 바꾸신다구요?&quot;]
@@ -1834,7 +1961,99 @@ if (window.bgmPlayer) {
         var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nwbrw1ma34fzto8gwjwea/V10.mp3?rlkey=a7s5e9szrs7en4s6vn9rnqf9s&amp;st=zbi58usm&amp;dl=1&quot;);
         sfx.volume = 0.6; // 볼륨 설정 (0~1)
         sfx.play();
-    &lt;/script&gt;(set: $relationship to it -1)(set: $money to it +10000))(go-to:&quot;S205 - 4&quot;)]]</tw-passagedata><tw-passagedata pid="78" name="S206" tags="" position="1350,1450" size="100,100">어쩔 수 없이 목적지로 이동했다.
+    &lt;/script&gt;(set: $relationship to it -1)(set: $money to it +10000))(go-to:&quot;S205 - 4&quot;)]]</tw-passagedata><tw-passagedata pid="77" name="S205 - 2" tags="" position="1250,1325" size="100,100">그렇게 도착한 두 번째 목적지. 손님에게 도착했다는 말을 하려는 것도 잠시, 손님이 갑자기
+나에게 만원을 또 쥐어주며 말을 걸었다. 이 상황까지도 똑같다.
+
+(text-colour:#e03131)[&quot;내가 생각이 조금 바뀌어서 그런데... 지금 목적지 말고 종각역으로 가줄 수 있겠나?&quot;]
+
+나는 거절하지 않고 손님의 말을 계속 들었다
+그리고 손님은 나에게 의미를 알 수 없는 질문을 한번 더 해왔다.
+
+(text-colour:#e03131)[&quot;자네는 아까 내가 말했던 것들 중에 나머지인 명예, 즐거움, 돈.
+이 세가지를 돈으로 살 수 있다고 생각하는가? 돈을 돈으로 산다는 말은 조금 어색하니
+돈이 있어야 더 많은 돈을 가질 수 있는가 라는 뜻으로 알아듣게.&quot;]
+
+한 번 답변해 보았기에 더 신중히 대답할 수 있었다
+
+(text-colour:#b2f2bb)[&quot;제가 생각하기에는...&quot;]
+
+
+[(link:&quot;돈으로 안되는건 없다&quot;)[&lt;script&gt;
+        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nwbrw1ma34fzto8gwjwea/V10.mp3?rlkey=a7s5e9szrs7en4s6vn9rnqf9s&amp;st=zbi58usm&amp;dl=1&quot;);
+        sfx.volume = 0.6; // 볼륨 설정 (0~1)
+        sfx.play();
+    &lt;/script&gt;(set: $relationship to it -1)(set: $money to it +10000))(go-to:&quot;S205 - 4&quot;)]]
+[(link:&quot;돈으로도 못사는 것들이 있다&quot;)[&lt;script&gt;
+        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nwbrw1ma34fzto8gwjwea/V10.mp3?rlkey=a7s5e9szrs7en4s6vn9rnqf9s&amp;st=zbi58usm&amp;dl=1&quot;);
+        sfx.volume = 0.6; // 볼륨 설정 (0~1)
+        sfx.play();
+    &lt;/script&gt;(set: $relationship to it +1)(set: $money to it +10000))(go-to:&quot;S205 - 3&quot;)]]
+[(link:&quot;잘 모르겠다&quot;)[&lt;script&gt;
+        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nwbrw1ma34fzto8gwjwea/V10.mp3?rlkey=a7s5e9szrs7en4s6vn9rnqf9s&amp;st=zbi58usm&amp;dl=1&quot;);
+        sfx.volume = 0.6; // 볼륨 설정 (0~1)
+        sfx.play();
+    &lt;/script&gt;(set: $relationship to it +1)(set: $money to it +10000))(go-to:&quot;S205 - 3&quot;)]]</tw-passagedata><tw-passagedata pid="78" name="S205 - 3" tags="" position="1350,1325" size="100,100">세 번째 목적지에 도착했지만, 손님은 곧바로 내리지 않았다.
+나는 분명 겪어봤던 일을 다시 겪는 것 같다는 확신이 들어 소름이 돋았다
+
+손님은 잠시 창밖을 바라보더니 무언가 확인한 것처럼 고개를 작게 끄덕이고 다시 나에게 말을 걸었다.
+
+(text-colour:#e03131)[&quot;흠... 아직은 아니야. 그냥 창신동으로 가세.&quot;]
+
+대체 무엇이 아니라는 걸까.
+
+(text-colour:#e03131)[&quot;마지막으로 하나만 더 묻지. 자네는, 지금 자네의 삶이 어떤가?]
+
+진심을 말할 때다
+
+(text-colour:#b2f2bb)[&quot;지금은...&quot;]
+
+
+[(link:&quot;소소한 행복이 있다&quot;)[&lt;script&gt;
+        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nwbrw1ma34fzto8gwjwea/V10.mp3?rlkey=a7s5e9szrs7en4s6vn9rnqf9s&amp;st=zbi58usm&amp;dl=1&quot;);
+        sfx.volume = 0.6; // 볼륨 설정 (0~1)
+        sfx.play();
+    &lt;/script&gt;(set: $relationship to it +1)(set: $money to it +10000))(go-to:&quot;S1 - 5-5&quot;)]]
+[(link:&quot;지긋지긋하다 이젠 끝내고 싶다&quot;)[&lt;script&gt;
+        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nwbrw1ma34fzto8gwjwea/V10.mp3?rlkey=a7s5e9szrs7en4s6vn9rnqf9s&amp;st=zbi58usm&amp;dl=1&quot;);
+        sfx.volume = 0.6; // 볼륨 설정 (0~1)
+        sfx.play();
+    &lt;/script&gt;(set: $relationship to it -1)(set: $money to it +10000))(go-to:&quot;S205 - 4&quot;)]]
+[(link:&quot;아직 잘 모르겠다&quot;)[&lt;script&gt;
+        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/nwbrw1ma34fzto8gwjwea/V10.mp3?rlkey=a7s5e9szrs7en4s6vn9rnqf9s&amp;st=zbi58usm&amp;dl=1&quot;);
+        sfx.volume = 0.6; // 볼륨 설정 (0~1)
+        sfx.play();
+    &lt;/script&gt;(set: $relationship to it +1)(set: $money to it +10000))(go-to:&quot;S1 - 5-5&quot;)]]</tw-passagedata><tw-passagedata pid="79" name="S205 - 4" tags="" position="1450,1325" size="100,100">(text-colour:#e03131)[&quot;...정신을 못 차린것 같구만. 정말 실망이야.&quot;]
+
+이건 정말 다 들어 본 말이다.
+
+(text-colour:#e03131)[&quot;이만 내려보도록 하지. 이쯤에서 내려주게나.&quot;]
+
+이 말 또한 마찬가지다. 머리가 너무 복잡했다.
+
+
+{
+(if: $LoopN is 2)[
+    (if: $loop1 is true)[
+        (link: &quot;진짜 이상하다...&quot;)[
+            (set: $loop2 to true)
+            (go-to: &quot;S306&quot;)
+        ]
+    ]
+    (else:)[
+        (link-goto: &quot;진짜 이상하다...&quot;, &quot;S306&quot;)
+    ]
+]
+(else-if: $loop1 is true and $FLoop2 is false)[
+    (set: $loop2 to true)
+    (link-goto: &quot;진짜 이상하다...&quot;, &quot;S206&quot;)
+]
+(else-if: $loop1 is false and $FLoop2 is false)[
+    (link-goto: &quot;진짜 이상하다...&quot;, &quot;S206&quot;)
+]
+(else:)[
+    (link-goto: &quot;손님을 내려준다&quot;, &quot;S206&quot;)
+]
+}</tw-passagedata><tw-passagedata pid="80" name="S206" tags="" position="1350,1450" size="100,100">어쩔 수 없이 목적지로 이동했다.
 
 (text-colour:#b2f2bb)[&quot;...손님 저... 도착했습니다.&quot;]
 
@@ -1864,7 +2083,7 @@ if (window.bgmPlayer) {
         (goto: &quot;S1 - 7&quot;)
     ]
 ]
-}</tw-passagedata><tw-passagedata pid="79" name="S206 - 1" tags="" position="1350,1575" size="100,100">나는 급한 마음에 바로 차 뒷문을 잠구고 손님에게 말을 걸었다.
+}</tw-passagedata><tw-passagedata pid="81" name="S206 - 1" tags="" position="1350,1575" size="100,100">나는 급한 마음에 바로 차 뒷문을 잠구고 손님에게 말을 걸었다.
 
 (text-colour:#b2f2bb)[&quot;손님, 대체 저에게 무슨 일이 일어나고 있는거죠?&quot;]
 
@@ -1875,7 +2094,16 @@ if (window.bgmPlayer) {
 그가 돈을 더 주며 말했다. 나는 문을 열지 못하게 차를 출발시키고는 큰 길 쪽으로 몰아댔다.
 
 
-[(link:&quot;물어볼게 있습니다&quot;)[(set: $money to it +50000)(go-to:&quot;S206 - 2&quot;)]]</tw-passagedata><tw-passagedata pid="80" name="S206 - 2" tags="" position="1300,1700" size="100,100">(text-colour:#b2f2bb)[&quot;저는 당신을 분명 본 적이 있습니다. 절대 꿈이 아니였어요. 당신은 도대체 누굽니까?&quot;]
+[(link:&quot;물어볼게 있습니다&quot;)[(set: $money to it +50000)(go-to:&quot;S206 - 2&quot;)]]</tw-passagedata><tw-passagedata pid="82" name="S206 - 2" tags="" position="1300,1700" size="100,100">{
+&lt;!-- &#39;getPrepared&#39;라는 변수가 false(거짓)일 때만 실행 --&gt;
+(if: $getPrepared is not true)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 도르마무!]&lt;/div&gt;
+    
+    &lt;!-- 획득했으므로 변수를 true로 변경하여 다음엔 안 뜨게 함 --&gt;
+    (set: $getPrepared to true)
+]
+}
+(text-colour:#b2f2bb)[&quot;저는 당신을 분명 본 적이 있습니다. 절대 꿈이 아니였어요. 당신은 도대체 누굽니까?&quot;]
 
 그러자 그는 웃으며 대답했다.
 
@@ -1887,22 +2115,31 @@ if (window.bgmPlayer) {
 
 뒤를 돌아보니 그는 사라져있었다. 
 
-[(link:&quot;이게 도대체 무슨...&quot;)[(set: $money to it +50000, $KnowLoop to true)(go-to:&quot;S206 - 3&quot;)]]</tw-passagedata><tw-passagedata pid="81" name="S206 - 3" tags="" position="1400,1700" size="100,100">하루가 반복되고 있는 것 같다. 정말 하루가 반복되는 것일까, 아니면 내가 미쳐가고 있는 것일까. 만약 맞다면 나는 얼마나 오랫동한 하루를 반복하며 살아왔던 것일까? 
+[(link:&quot;이게 도대체 무슨...&quot;)[(set: $money to it +50000, $KnowLoop to true)(go-to:&quot;S206 - 3&quot;)]]</tw-passagedata><tw-passagedata pid="83" name="S206 - 3" tags="" position="1400,1700" size="100,100">하루가 반복되고 있는 것 같다. 정말 하루가 반복되는 것일까, 아니면 내가 미쳐가고 있는 것일까. 만약 맞다면 나는 얼마나 오랫동한 하루를 반복하며 살아왔던 것일까? 
 머리가 아프다. 두통약이 필요할 것만 같다....
 
+
 {
-&lt;!-- 1. 기본 조건 (첫 번째 행) --&gt;
-(link-goto: &quot;일단 어쩔 수는 없으니 다음 콜을 받아야 겠다.&quot;, &quot;S1 - 7&quot;)
+(link-goto: &quot;일단 어쩔 수없다. 다음 배차로 간다.&quot;, &quot;S1 - 7&quot;)
 
-&lt;!-- 2. 특정 상황 조건 (두 번째 행) --&gt;
-&lt;!-- 이 조건은 별도의 변수 체크가 없다면 상시 노출됩니다. 특정 변수가 필요하면 (if:)로 감싸주세요. --&gt;
-(link-goto: &quot;그럼.... 마누라가 또 죽는단 말이야?&quot;, &quot;S215&quot;)
+(link-goto: &quot;집으로 간다!&quot;, &quot;S215&quot;)
 
-&lt;!-- 3. R1 보유 조건 (여섯 번째 행) --&gt;
+(if: $LoopN is 2)[
+    (if: $relationship &gt; 19)[
+        (link-goto: &quot;일은 이제 중요하지않다... 휠체어 탄 손님이 있는 거리까지 가보자&quot;, &quot;S309&quot;)
+    ]
+    (else-if: $relationship &gt; 14)[
+        (link-goto: &quot;이렇게 된 이상 한강으로 간다!&quot;, &quot;S207-2&quot;)
+    ]
+    (else-if: $relationship &gt; 10)[
+        (link-goto: &quot;점이라도 봐야겠다!&quot;, &quot;S207-1&quot;)
+    ]
+]
+
 (if: $FLoop1 is true)[
     (link-goto: &quot;정신과 진료를 받아볼까?&quot;, &quot;S207&quot;)
 ]
-}</tw-passagedata><tw-passagedata pid="82" name="S207" tags="" position="1350,1825" size="100,100">(text-colour:green)[&quot;손님, 검사결과가 나왔습니다.&quot;]
+}</tw-passagedata><tw-passagedata pid="84" name="S207" tags="" position="1200,1825" size="100,100">(text-colour:green)[&quot;손님, 검사결과가 나왔습니다.&quot;]
 
 긴장되는 마음으로 들어갔지만 내가 자리에 앉기도 전에 의사가 말했다.
 
@@ -1912,7 +2149,14 @@ if (window.bgmPlayer) {
 
 정말, 아무일도 일어나지 않고 있는걸까?
 
-[(link:&quot;차로 돌아가서 배차를 확인한다&quot;)[(go-to:&quot;S1 - 7&quot;)]]</tw-passagedata><tw-passagedata pid="83" name="S208" tags="" position="1350,1950" size="100,100">알 수 없는 기억과 똑 같은 상황이다.
+[(link:&quot;차로 돌아가서 배차를 확인한다&quot;)[(go-to:&quot;S1 - 7&quot;)]]
+{
+(if: $relationship &gt; 10)[
+    [(link: &quot;아니야. 신점이라도 봐야겠어&quot;)[
+        (go-to: &quot;S207 - 1&quot;)
+    ]]
+]
+}</tw-passagedata><tw-passagedata pid="85" name="S208" tags="" position="1350,1950" size="100,100">알 수 없는 기억과 똑 같은 상황이다.
 
 (text-colour:#be4bdb)[&quot;기사님 안녕하세요, 트렁크좀 열어주세요&quot;]
 
@@ -1929,7 +2173,7 @@ if (window.bgmPlayer) {
 
 차가 도착하고 손님은 안쪽 골목을 가르켰다. 나는 휘파람을 불며 짐을 옮겼다.
 
-&lt;/script&gt;(set: $alley to true)(set:$LockStory to true)(set:$relationship to 15)
+
 {
 (if: $alley is true)[
     &lt;!-- 1행: A6 보유 시 --&gt;
@@ -1945,7 +2189,7 @@ if (window.bgmPlayer) {
     &lt;!-- 기타 상황 (대화가 이어지지 않거나 기본 패시지로 이동할 경우) --&gt;
     (link-goto: &quot;골목까지 짐을 들어준다&quot;, &quot;S1 - 8-3&quot;)
 ]
-}</tw-passagedata><tw-passagedata pid="84" name="S209" tags="" position="1300,2075" size="100,100">다음 손님은 역시나. 당연히 너무 익숙한 커플 손님들.
+}</tw-passagedata><tw-passagedata pid="86" name="S209" tags="" position="1300,2075" size="100,100">다음 손님은 역시나. 당연히 너무 익숙한 커플 손님들.
 
 (text-colour:#b2f2bb)[&quot;두 분 사이좋게 남산 가시죠? 역시 이맘때 쯤엔 남산이 좋죠. 오늘 날씨만 아니면...&quot;]
 
@@ -1960,15 +2204,26 @@ if (window.bgmPlayer) {
 (text-colour:#b2f2bb)[&quot;두분 잘 다녀 오세요!&quot;]
 
 {
-&lt;!-- 1. 첫 번째 행: 항상 노출  --&gt;
-(link: &quot;다음 배차로 향한다&quot;)[(goto: &quot;S2 - 20&quot;)
+&lt;!-- 1. 첫 번째 행: 항상 노출 (클릭 시 A12 보유 상태로 변경) --&gt;
+(link: &quot;다음 배차로 향한다&quot;)[
+    (set: $CLockEvent to true) &lt;!-- A12 보유 설정 --&gt;
+    (goto: &quot;S2 - 20&quot;)
 ]
 
 &lt;!-- 2. 두 번째 행: A7 보유, A12 미보유, 관계수치 10 초과 시 노출 --&gt;
 (if: $LockStory is true and $CLockEvent is false and $relationship &gt; 10)[
-    (link-goto: &quot;아내와 걸어놓은 자물쇠를 확인해본다&quot;, &quot;S209 - 1&quot;)
+    (link-goto: &quot;아내와 걸어놓은 자물쇠를 확인해본다&quot;, &quot;S209-1&quot;)
 ]
-}</tw-passagedata><tw-passagedata pid="85" name="S209 - 1" tags="" position="1400,2075" size="100,100">커플들을 보내고 다음 배차로 가려는 찰나, 갑작스럽게 커플들의
+}</tw-passagedata><tw-passagedata pid="87" name="S209 - 1" tags="" position="1400,2075" size="100,100">{
+&lt;!-- &#39;getPrepared&#39;라는 변수가 false(거짓)일 때만 실행 --&gt;
+(if: $getPrepared is not true)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 녹슬어버린 자물쇠]&lt;/div&gt;
+    
+    &lt;!-- 획득했으므로 변수를 true로 변경하여 다음엔 안 뜨게 함 --&gt;
+    (set: $getPrepared to true)
+]
+}
+커플들을 보내고 다음 배차로 가려는 찰나, 갑작스럽게 커플들의
 자물쇠 이야기가 머릿속에 맴돌아 나도 잠시 남산에 올라가보기로 했다.
 
 나는 언덕을 뛰어 올라갔다. 아내와 만들어놓은 자물쇠가 있는 곳으로. 다행히 펜스 밖 기둥에 묶인 철사엔, 녹이 슨 자물쇠가 아직 걸려 있었다. 
@@ -1979,7 +2234,16 @@ if (window.bgmPlayer) {
 
 
 [(link:&quot;허겁지겁 택시로 간다&quot;)[(set: $CLockEvent to true, $relationship to it +1)
-(go-to:&quot;S2 - 20&quot;)]]</tw-passagedata><tw-passagedata pid="86" name="S21 - 1" tags="" position="1350,2325" size="100,100">간호사가 나오기 전에 그래도 내가 부축해주는것이 맞을 것 같다.
+(go-to:&quot;S2 - 20&quot;)]]</tw-passagedata><tw-passagedata pid="88" name="S21 - 1" tags="" position="1350,2325" size="100,100">{
+&lt;!-- &#39;getPrepared&#39;라는 변수가 false(거짓)일 때만 실행 --&gt;
+(if: $getPrepared is not true)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 축복의 순간]&lt;/div&gt;
+    
+    &lt;!-- 획득했으므로 변수를 true로 변경하여 다음엔 안 뜨게 함 --&gt;
+    (set: $getPrepared to true)
+]
+}
+간호사가 나오기 전에 그래도 내가 부축해주는것이 맞을 것 같다.
 나는 산모를 부축해 차에서 내리고, 힘겨워 하는 손님을 응급실 입구로 모셨다.
 간호사가 뛰어나오며 말했다.
 
@@ -1993,7 +2257,7 @@ if (window.bgmPlayer) {
 나는 영영 그런 아내를 구하지 못하게 되는 것일까.
 
 
-[(link:&quot;다음 장소로 이동한다&quot;)[(go-to:&quot;S1 - 10&quot;)]]</tw-passagedata><tw-passagedata pid="87" name="S211" tags="" position="1350,2575" size="100,100">집안 분위기가 똑 같다. 아내가 또 잘못돼 있을 것만 같다. 
+[(link:&quot;다음 장소로 이동한다&quot;)[(go-to:&quot;S1 - 10&quot;)]]</tw-passagedata><tw-passagedata pid="89" name="S211" tags="" position="1350,2575" size="100,100">집안 분위기가 똑 같다. 아내가 또 잘못돼 있을 것만 같다. 
 나는 아내를 불렀고, 아내는 응답이 없다. 늘 그랬든 열려있는 방문, 
 나는 아침에 꾼 꿈에 갇혀버린 것일까. 나는 왜 이것을 반복하고 있을까. 
 
@@ -2002,7 +2266,7 @@ if (window.bgmPlayer) {
 |w1&gt;[(link: &quot;아내를 불러본다&quot;)[
     (replace: ?w1)[나 왔어! 외쳐보지만 대답도없고 아내의 모습도 보이지 않는다.]]]
 |w2&gt;[ (link: &quot;전화를 확인해본다&quot;)[
-    (replace: ?w2)[아내의 전화는 오후에 부재중 몇통 온 것이 마지막이다.]]]</tw-passagedata><tw-passagedata pid="88" name="S215" tags="" position="1350,2450" size="100,100">나는 바로 집으로 출발했다. 도심 도로에선 그나마 앞으로 나아갈 수 있었지만, 
+    (replace: ?w2)[아내의 전화는 오후에 부재중 몇통 온 것이 마지막이다.]]]</tw-passagedata><tw-passagedata pid="90" name="S215" tags="" position="1350,2450" size="100,100">나는 바로 집으로 출발했다. 도심 도로에선 그나마 앞으로 나아갈 수 있었지만, 
 간선도로에 들어오자 차가 가득 차 있었다.
 
 집으로 향하면 향할수록 아내에 대한 걱정이 점점 커져만 갔다.
@@ -2011,12 +2275,18 @@ if (window.bgmPlayer) {
 
 집이 눈 앞에 보이기 시작했다. 제발... 무사하길...
 
+
 [(link:&quot;집으로 향한다&quot;)[(go-to: &quot;S211&quot;)]]
 {
+(if: $LoopN is 3)[
+    (link: &quot;차를 다시 돌린다&quot;)[
+        (go-to: &quot;S4 - 3&quot;)
+    ]
+]
 (if: $FLoop2 is true)[
     (link-goto: &quot;밟는다!&quot;, &quot;DT01&quot;)
 ]
-}</tw-passagedata><tw-passagedata pid="89" name="기본 세팅" tags="header" position="600,200" size="100,100">{
+}</tw-passagedata><tw-passagedata pid="91" name="기본 세팅" tags="header" position="600,200" size="100,100">{
 &lt;!-- 1. 돈 표시 영역--&gt;
 (unless: (passage:)&#39;s tags contains &quot;hide-score&quot;)[
     &lt;div class=&quot;top-bar&quot;&gt;
@@ -2052,7 +2322,7 @@ if (window.bgmPlayer) {
     (set: $LoopN to 0, $relationship to 0, $money to 0, $question to false, $LockStory to false, $fall to false, $loop1 to false, $loop2 to false, $KnowLoop to false, $alley to false, $Lock to false, $Maternity to false, $anniversary to false, $FLoop1 to false, $FLoop2 to false, $FLoop3 to false, $Sanniversary to false, $CLockEvent to false, $Goodwife to false)
     (set: $isInitialized to true)
 ]
-}</tw-passagedata><tw-passagedata pid="90" name="다음으로&gt; " tags="" position="800,450" size="100,100">&lt;img src=&quot;https://c.pxhere.com/images/92/d7/3c09f2a7693a4834d9c1c47afe33-1709602.png!d&quot; srcset=&quot;https://c.pxhere.com/images/92/d7/3c09f2a7693a4834d9c1c47afe33-1709602.png!d&quot; alt=&quot;드라이브, 무료 이미지 In PxHere&quot;width=&quot;70%&quot;&gt;
+}</tw-passagedata><tw-passagedata pid="92" name="다음으로&gt; " tags="" position="800,450" size="100,100">&lt;img src=&quot;https://c.pxhere.com/images/92/d7/3c09f2a7693a4834d9c1c47afe33-1709602.png!d&quot; srcset=&quot;https://c.pxhere.com/images/92/d7/3c09f2a7693a4834d9c1c47afe33-1709602.png!d&quot; alt=&quot;드라이브, 무료 이미지 In PxHere&quot;width=&quot;90%&quot;&gt;
 날씨도 이상하니 내 기분도 괜히 예민하고 이상해지는 것 같다.
 
 그런 생각에 빠질 때 쯤, 핸드폰에 걸려오는 한 통의 전화. 아내의 전화다.
@@ -2085,7 +2355,7 @@ if (window.bgmPlayer) {
             window.globalBGM.play();
         }
     }, 3500);
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="91" name="다음으로&gt;   " tags="" position="800,700" size="100,100">호출한 위치로 가니 그곳에서 서 있는 검은색 형체가 보이기 시작했다.
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="93" name="다음으로&gt;   " tags="" position="800,700" size="100,100">호출한 위치로 가니 그곳에서 서 있는 검은색 형체가 보이기 시작했다.
 그 사람은 새까만 선글라스와 판초를 입고 가만히 서서 무언가를 기다리는듯 보였다.
 혹시나 저 사람이 맞나 싶어 차량을 앞에 대자 &#39;덜컥&#39; 소리와 함께 탑승하였다.
 
@@ -2143,7 +2413,7 @@ if (window.bgmPlayer) {
             window.globalBGM.play();
         }
     }, 5000);
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="92" name="대사 색깔" tags="" position="300,300" size="100,100">김기사  = text-colour:#b2f2bb
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="94" name="대사 색깔" tags="" position="300,300" size="100,100">김기사  = text-colour:#b2f2bb
 
 아내  = text-colour:#bac8ff
 
@@ -2166,7 +2436,7 @@ if (window.bgmPlayer) {
 경찰 = text-colour:#22b8cf
 
 
-[[아이템 리스트 -&gt;메모]]</tw-passagedata><tw-passagedata pid="93" name="메모" tags="" position="300,200" size="100,100">관계수치 = relationship 
+[[아이템 리스트 -&gt;메모]]</tw-passagedata><tw-passagedata pid="95" name="메모" tags="" position="300,200" size="100,100">관계수치 = relationship 
 돈 = money 
 A1 = question  
 A2 = fall
@@ -2183,15 +2453,17 @@ A13 = Goodwife
 
 R1 = FLoop1  
 
+루프 = LoopN
 
-[[대사 색깔]]</tw-passagedata><tw-passagedata pid="94" name="배차 호출을 확인한다" tags="" position="900,575" size="100,100">일단 지금은 아내의 전화보다 돈을 버는 것이 더 급한 일이다.
-이 시간대에 전화는 받아봐도 별 일이 아닐거라는 생각이 든다.
+
+[[대사 색깔]]</tw-passagedata><tw-passagedata pid="96" name="배차 호출을 확인한다" tags="" position="900,575" size="100,100">일단 지금은 아내의 전화보다 다른 급한일들이 있다.
+지금 전화는 의미도 없고 늦다고 생각이 든다.
 
 배차 호출을 확인해보니 그렇게 멀지 않은 곳에서 부른 손님이다.
 오늘은 그냥 이렇게 손님을 받는게 더 나을것 같다.
 일단 손님의 호출을 수락하고 위치로 갈 준비를 한다.
 
-(text-colour:#b2f2bb)[&quot;...나중에 전화하지 뭐.&quot;]
+(text-colour:#b2f2bb)[&quot;...나중에 다시 전화하지 뭐.&quot;]
 
 
 [(link:&quot;첫 손님을 받으러 간다&quot;)[&lt;script&gt;
@@ -2210,7 +2482,7 @@ R1 = FLoop1
         // 3. 바로 재생
         window.globalBGM.play().catch(function(e) { console.log(&quot;재생 대기&quot;); });
     }
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="95" name="사운드 설정" tags="" position="925,325" size="100,100">## 🎵 사운드 설정
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="97" name="사운드 설정" tags="" position="925,325" size="100,100">## 🎵 사운드 설정
 
 (link-repeat: &quot;🔊 크게&quot;)[
     &lt;script&gt;
@@ -2231,7 +2503,7 @@ R1 = FLoop1
 ]
 
 ---
-[[메인 메뉴로 돌아가기|타이틀_메뉴]]</tw-passagedata><tw-passagedata pid="96" name="사운드 주소" tags="" position="200,200" size="100,100">1 = https://www.dropbox.com/scl/fi/6xoei1y0f0sqv8z20fl1e/V01.mp3?rlkey=2tm8d2w5efvw4m6gav2dv0cbn&amp;st=pkogl0ui&amp;dl=1
+[[메인 메뉴로 돌아가기|타이틀_메뉴]]</tw-passagedata><tw-passagedata pid="98" name="사운드 주소" tags="" position="200,200" size="100,100">1 = https://www.dropbox.com/scl/fi/6xoei1y0f0sqv8z20fl1e/V01.mp3?rlkey=2tm8d2w5efvw4m6gav2dv0cbn&amp;st=pkogl0ui&amp;dl=1
 2 =https://www.dropbox.com/scl/fi/p5vvod2vfy4xvo24edo88/V02.mp3?rlkey=xv1s5spwt2o3artojy4b91itl&amp;st=dlix0sjl&amp;dl=1
 3 =https://www.dropbox.com/scl/fi/nioh6zulxpg0ffdl6jsk0/V03.mp3?rlkey=sq5w2je61ulxrpr2rbfqzu4sd&amp;st=pbgmu8aa&amp;dl=1
 4 = https://www.dropbox.com/scl/fi/fvaz4lb1pzym8yrgwkqso/V04.mp3?rlkey=pk6xw04c6rwuwbrb5txow568m&amp;st=mfpm9uwc&amp;dl=1
@@ -2244,7 +2516,7 @@ R1 = FLoop1
 
 [[10번 이후]]
 [[20번 이후]]
-[[30번 이후]]</tw-passagedata><tw-passagedata pid="97" name="전화를 받는다" tags="" position="700,575" size="100,100">나는 아내의 전화를 받는다.
+[[30번 이후]]</tw-passagedata><tw-passagedata pid="99" name="전화를 받는다" tags="" position="700,575" size="100,100">나는 아내의 전화를 받는다.
 
 (text-colour:#b2f2bb)[&quot;여보세요?&quot;]
 
@@ -2286,7 +2558,7 @@ R1 = FLoop1
         // 4. 재생
         window.globalBGM.play();
     }
-    &lt;/script&gt;</tw-passagedata><tw-passagedata pid="98" name="첫 시작" tags="" position="800,325" size="100,100">20XX년, 여름
+    &lt;/script&gt;</tw-passagedata><tw-passagedata pid="100" name="첫 시작" tags="" position="800,325" size="100,100">20XX년, 여름
 그 날은 여름인데도 불구하고 진눈깨비가 내리는 아주 이상한 날이었다…
 
 나는 동묘 근처, 한 점포의 차양막 아래에 대어놓은 택시에서 놀라듯 잠에서 깼다.
@@ -2317,7 +2589,7 @@ R1 = FLoop1
         // 3. 바로 재생
         window.globalBGM.play().catch(function(e) { console.log(&quot;재생 대기&quot;); });
     }
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="99" name="타이틀" tags="" position="800,75" size="100,100"># Lucky Days - 운수 좋은 날
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="101" name="타이틀" tags="" position="800,75" size="100,100"># Lucky Days - 운수 좋은 날
 
 &lt;div style=&quot;text-align: center; margin-top:&quot;&gt;
     (link-repeat: &quot;김기사의 이야기 알아보기&quot;)[
@@ -2348,8 +2620,8 @@ R1 = FLoop1
         &lt;/script&gt;
         (goto: &quot;타이틀_메뉴&quot;)
     ]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="100" name="타이틀 사운드" tags="startup" position="600,300" size="100,100">(set: $volLevel to 5)
-(set: $bgmSource to &quot;https://dl.dropboxusercontent.com/scl/fi/6xoei1y0f0sqv8z20fl1e/V01.mp3?rlkey=2tm8d2w5efvw4m6gav2dv0cbn&quot;)</tw-passagedata><tw-passagedata pid="101" name="타이틀_메뉴" tags="" position="800,200" size="100,100">&lt;img src=&quot;https://c.pxhere.com/images/46/10/04bcdf5499c272404b4f58c65d2a-1709532.png!d&quot; srcset=&quot;https://c.pxhere.com/images/46/10/04bcdf5499c272404b4f58c65d2a-1709532.png!d&quot; alt=&quot;본관, 무료 이미지 In PxHere&quot; width =&quot;100%&quot;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="102" name="타이틀 사운드" tags="startup" position="600,300" size="100,100">(set: $volLevel to 5)
+(set: $bgmSource to &quot;https://dl.dropboxusercontent.com/scl/fi/6xoei1y0f0sqv8z20fl1e/V01.mp3?rlkey=2tm8d2w5efvw4m6gav2dv0cbn&quot;)</tw-passagedata><tw-passagedata pid="103" name="타이틀_메뉴" tags="" position="800,200" size="100,100">&lt;img src=&quot;https://c.pxhere.com/images/46/10/04bcdf5499c272404b4f58c65d2a-1709532.png!d&quot; srcset=&quot;https://c.pxhere.com/images/46/10/04bcdf5499c272404b4f58c65d2a-1709532.png!d&quot; alt=&quot;본관, 무료 이미지 In PxHere&quot; width =&quot;100%&quot;&gt;
 
 (link-repeat: &quot;&lt;span style=&#39;font-size:1.5em; font-weight: bold;
   line-height: 1.5;&#39;&gt;게임 시작&lt;/span&gt;&quot;)[
@@ -2363,70 +2635,928 @@ R1 = FLoop1
 ]
 (text-size:1)[[사운드 설정]]
 
-(set: $currentLocation to &quot;타이틀_메뉴&quot;)</tw-passagedata><tw-passagedata pid="102" name="S1-13-0" tags="" position="1250,4625" size="100,100">&lt;img src=&quot;https://c.pxhere.com/images/7f/8a/cb7c926aa13ae5d30e5c35e9994e-1709598.png!d&quot; srcset=&quot;https://c.pxhere.com/images/7f/8a/cb7c926aa13ae5d30e5c35e9994e-1709598.png!d&quot; alt=&quot;경찰, 무료 이미지 In PxHere&quot;width=&quot;90%&quot;&gt;
+(set: $currentLocation to &quot;타이틀_메뉴&quot;)</tw-passagedata><tw-passagedata pid="104" name="S1 - 2" tags="" position="1725,325" size="100,100">(set: $LoopN to it +1)
+20XX년, 여름
+그 날은 여름인데도 불구하고 진눈깨비가 내리는 아주 이상한 날이였다…
+
+나는 동묘 근처, 한 점포의 차양막 아래에.....
+
+(text-colour:#b2f2bb)[이런 젠장!!!!!!!]
+
+이제 그만하고 싶다. 이 꿈은 깨어나지 않는 것인가. 그런데 또 호출이 울린다.
 
 
-
-(text-colour:#22b8cf)[&quot;당신은 묵비권을 행사할 수 있고...&quot;]
-
-경찰의 말과 함께 &#39;철컥&#39; 소리가 나며 내 손목에는 수갑이 채워져 있었다.
-나는 분명 방금 집에 왔는데 현행범이라니? 뭔가 잘못된게 틀림없다.
-어떡하지? 어떻게 이 상황을 빠져나와야 하지?
-
-
-[(link:&quot;해명한다&quot;)[&lt;script&gt;
-        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/fvaz4lb1pzym8yrgwkqso/V04.mp3?rlkey=pk6xw04c6rwuwbrb5txow568m&amp;st=mfpm9uwc&amp;dl=1&quot;);
-        sfx.volume = 0.6; // 볼륨 설정 (0~1)
-        sfx.play();
-    &lt;/script&gt;(go-to:&quot;S1 - 14&quot;)]] 
-[(link:&quot;저항한다&quot;)[&lt;script&gt;
-        var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/k31p8ixr8l94tunjvd23l/V12.mp3?rlkey=d825pxg76j84s5g480jbt5no8&amp;st=z1bnp9qf&amp;dl=1&quot;);
-        sfx.volume = 0.6; // 볼륨 설정 (0~1)
-        sfx.play();
-    &lt;/script&gt;(go-to:&quot;S1 - 14&quot;)]]
-{
-(if: $fall is true)[
-    &lt;!-- A2 보유 시: 텍스트가 변경됨 --&gt;
-    [(link: &quot;창문쪽은... 위험할거같다...&quot;)[
-        &lt;script&gt;
-            var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/k31p8ixr8l94tunjvd23l/V12.mp3?rlkey=d825pxg76j84s5g480jbt5no8&amp;st=z1bnp9qf&amp;dl=1&quot;);
-            sfx.volume = 0.6;
-            sfx.play();
-        &lt;/script&gt;
-        (go-to: &quot;S1 - 400&quot;)
-    ]]
-]
-(else:)[
-    &lt;!-- A2 미보유 시: 기존 텍스트 유지 --&gt;
-    [(link: &quot;창문으로 도망친다&quot;)[
-        &lt;script&gt;
-            var sfx = new Audio(&quot;https://www.dropbox.com/scl/fi/k31p8ixr8l94tunjvd23l/V12.mp3?rlkey=d825pxg76j84s5g480jbt5no8&amp;st=z1bnp9qf&amp;dl=1&quot;);
-            sfx.volume = 0.6;
-            sfx.play();
-        &lt;/script&gt;
-        (go-to: &quot;S1 - 400&quot;)
-    ]]
+[(link:&quot;전화기를 확인한다&quot;)[(go-to:&quot;S2 - 1-10&quot;)]]</tw-passagedata><tw-passagedata pid="105" name="S200 - 4" tags="" position="1725,475" size="100,100">{
+&lt;!-- &#39;getPrepared&#39;라는 변수가 false(거짓)일 때만 실행 --&gt;
+(if: $getPrepared is not true)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 나락퀴즈쇼]&lt;/div&gt;
+    
+    &lt;!-- 획득했으므로 변수를 true로 변경하여 다음엔 안 뜨게 함 --&gt;
+    (set: $getPrepared to true)
 ]
 }
-&lt;script&gt;
-    // n초 뒤에 음악 시작
-    setTimeout(function() {
-        if (window.globalBGM) {
-            window.globalBGM.src = &quot;https://www.dropbox.com/scl/fi/yjnf6u4nrdiblrb25uy6i/V14.mp3?rlkey=7gdnbe2sd4xyy0baoa4zcl8ym&amp;st=hxdxm69q&amp;dl=1&quot;;
-            window.globalBGM.play();
-        }
-    }, 2000);
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="103" name="S2 - 13" tags="" position="1400,4075" size="100,100">문이 강제로 열리며 경찰들이 들이닥쳤다. 주변 주민이 경찰에 신고를 한 듯하다.
-&#39;뭔가 이상하다고...!&#39;
-경찰이 다가오자 나는 다급히 입을 열었다.
+(text-colour:#bac8ff)[&quot;여보 오늘이 무슨 날인지 알아?&quot;]
 
-(text-colour:#b2f2bb)[&quot;경찰관분들! 제 말 좀 들어보십쇼! 저희 아내가...&quot;]
+(text-colour:#b2f2bb)[&quot;알...지&quot;]
 
-하지만 경찰의 입에서 나온 말은 가차없었다.
+사실 내가 알 리가 없다. 생일인가? 첫 애가 무슨 발표를 하나? 학부모 회의인가? 장모님 생신? 장인어른 기일? 정말 모르겠다.
 
-(text-colour:#22b8cf)[&quot;당신을 현행범으로 체포합니다.&quot;]
+(text-colour:#bac8ff)[&quot;여보, 힘내. 믿고있어.&quot;]
 
-[[다음으로 &gt; -&gt;S1-13-0]]</tw-passagedata></tw-storydata>
+(text-colour:#b2f2bb)[&quot;으...응&quot;]
+
+아..
+
+
+{
+[(link: &quot;대체 무슨 날일까...&quot;)[
+    (set: $Sanniversary to true) (set: $relationship to it + 1) (go-to: &quot;S3&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="106" name="S3" tags="" position="1725,625" size="100,100">...혼란스럽다
+나는 도대체 언제까지 이 반복되는 곳에서 있어야하는거지?
+
+(text-colour:#b2f2bb)[&quot;...젠장&quot;]
+
+또 다시 울려오는 배차를 호출하는 알림소리...
+
+
+{
+(link: &quot;호출에 응하기&quot;)[
+    (if: $FLoop1 is true and $LoopN is 2)[
+        (go-to: &quot;S204&quot;)
+    ]
+    (else-if: $LoopN is 3)[
+        (go-to: &quot;S4 - 2&quot;)
+    ]
+    (else:)[
+        (go-to: &quot;S204&quot;)
+    ]
+]
+}
+</tw-passagedata><tw-passagedata pid="107" name="S207 - 1" tags="" position="1300,1825" size="100,100">일청보살... 간판에 큰 부처님의 얼굴이 있는 무당집이었다.
+가정집 마루에 올라가니 문 뒤에서 방울 소리가 들렸다. 나 말고 다른 손님은 없는 모양이었다.
+
+문을 열고 들어가니 큰 차양막 뒤의 무당이 내게 말했다.
+
+(text-color:#FF8C00)[//&quot;너 계속 빙~빙 돌고 있구나&quot;//]
+
+나는 깜짝 놀라 엎드리고 말았다.
+
+(text-colour:#b2f2bb)[&quot;보살님, 제발 저를 좀 살려주세요. 지금 몇 번째 마누라가 계속 죽는 걸 보는 지 모르겠습니다. 다들 제가 죽인 줄 알아요&quot;]
+
+무당은 쌀을 뿌리는 것 같았다. 촤르륵. 
+
+(text-color:#FF8C00)[//&quot;복채는 5만원이야. 근데 넌 그냥 가. 방법 없어&quot;//]
+
+(text-colour:#b2f2bb)[&quot;방법이 없다뇨?&quot;]
+
+나는 엉엉 울 지경이었다.
+결국 무당은 굿을 해야한다고 했다. 삼천만 원 짜리 굿이면 해결된다고 했다. 꽃을 많이 사서 제단에 놓고 빌면 이 모든게 정리된다나. 나는 삼천 원도 없다.
+
+
+{
+(if: $relationship &gt; 12)[
+    (link-goto: &quot;...그럼 이제 한강밖에 없구나&quot;, &quot;S207 - 2&quot;)
+]
+
+(link-goto: &quot;그냥 돈이나 벌자. 그게 내 운명인가보다.&quot;, &quot;S1 - 8&quot;)
+}
+
+
+</tw-passagedata><tw-passagedata pid="108" name="S207 - 2" tags="" position="1400,1825" size="100,100">나는 한강공원으로 갔다. 물에 뛰어들기 위해서다.
+출렁이는 물을 보니 무서웠지만, 더이상 같은 하루를 반복하며 처참한 모습의 아내를 보는 것이 힘들다.
+
+계속해서 삶을 지속하는 것은 안된다고 생각한다.
+
+(text-colour:#b2f2bb)[&quot;...흑&quot;]
+
+소주를 한 병 다 비운 나는 차가운 물 속으로 뛰어들었다.
+&quot;첨벙&quot;
+여름인데 물이 너무 차갑다. 이렇게까지 차가운 물이었다니...
+
+
+{
+(link-goto: &quot;아직 이건 아닌것같다!&quot;, &quot;S207 - 3&quot;)
+
+(link-goto: &quot;나 같은 놈은 살 자격도 없다&quot;, &quot;DT03&quot;)
+}</tw-passagedata><tw-passagedata pid="109" name="S207 - 3" tags="" position="1500,1825" size="100,100">(text-colour:#22b8cf)[&quot;경찰입니다. 얼른 나오세요.&quot;]
+
+경찰과 구급대원이 기슭으로 나를 건져올렸다. 그들은 내 건강 상태를 체크하더니, 이상이 없다고 판단했는지 담요를 두르고 의료용 침대에 눕혔다.
+
+(text-colour:#22b8cf)[&quot;당신은 묵비권을 행사할 수 있고....&quot;]
+
+(text-colour:#b2f2bb)[&quot;이 뭔...&quot;]
+
+
+{
+(if: $relationship &gt; 21)[
+    (link-goto: &quot;안돼!!!!!!!!!!&quot;, &quot;S1 - 200&quot;)
+]
+(else-if: $relationship &lt; 22)[
+    (link-goto: &quot;안!!!!!돼!!!!!!&quot;, &quot;S1 - 2&quot;)
+]
+}</tw-passagedata><tw-passagedata pid="110" name="DT03" tags="" position="1400,2700" size="100,100">이미 여러 번의 루프를 거치며 내 영혼은 닳아 없어졌다. 아무리 발버둥 쳐도 바뀌지 않는 
+잔혹한 운명, 그리고 반복되는 아내의 죽음. 이제는 그 지독한 굴레에서 벗어나고 싶을 뿐이다.
+
+(text-colour:#b2f2bb)[&quot;......미안해. 이번에도 결국, 아무것도 바꾸지 못했어.&quot;]
+
+시야가 뒤집히고, 폐부 깊숙이 차가운 강물이 밀려든다. 
+귀를 먹먹하게 채우던 도시의 소음이 멀어지고, 기분 나쁜 정적만이 나를 감싼다.
+
+심장 박동이 점점 느려진다. 아내의 환영이 보이는 것 같기도 하다. 
+하지만 그조차 희미해져 갈 때쯤, 나는 비로소 깨달았다. 이번 루프의 끝은 
+다시 시작되는 아침이 아니라, 영원한 어둠이라는 것을.
+
+나 같은 놈에게 줄 자격은, 아마 이 차가운 물속에서의 안식뿐이었나 보다.
+
+
+{
+(link: &quot;삶이..소중한걸까?&quot;)[
+    (set: $money to 0)
+
+    (go-to: &quot;E04&quot;)
+]
+}</tw-passagedata><tw-passagedata pid="111" name="S1 - 200" tags="" position="1925,325" size="100,100">20XX년, 여름
+여름인데도 불구하고 진눈깨비가 내리는 이상한 날, 동묘 근처, 차양막 아래......
+나는 쓰러지듯 핸들에 머리를 내리쳤다.
+
+(text-colour:#e03131)[//벗어나야한다.//]
+
+대체 무슨 짓을 해야 이 상황에서 벗어날 수 있지?
+귓가,에 다시 익숙한 호출 소리가 들린다.
+
+
+[(link-goto:&quot;전화기를 확인한다&quot;,&quot;S2 - 1-10&quot;)]</tw-passagedata><tw-passagedata pid="112" name="E04" tags="" position="1500,2900" size="100,100">모든 의지를 잃었다. 
+
+계속되는 아내의 죽음과 나의 선택처럼 여겨지는 모든 일련의 사건들. 
+아내가 나를 탓하는 목소리가 들리는 듯 하다. 
+더 이상 이어갈 의지가 들지 않는다. 그만. 이제 그만하고 싶다....
+
+
+{
+(link-goto: &quot;이제 그만 끝내자...&quot;, &quot;CR&quot;)
+
+&lt;br&gt;
+
+(link: &quot;이대로 끝낼 수 없어!&quot;)[
+    (set: $LoopN to it + 1)
+    (set: $money to 0)
+    (set: $FLoop1 to true)
+
+    (if: $LoopN is 3)[
+        (goto: &quot;S1 - 200&quot;)
+    ]
+    (else-if: $LoopN is 2 and $LoopN is 3)[
+        (goto: &quot;S1-  2&quot;)
+    ]
+       (else-if: $LoopN is 4)[
+        (goto: &quot;S1 -  1001&quot;)
+    ]
+    (else:)[
+        (goto: &quot;S1 - 2&quot;)
+    ]
+]
+}</tw-passagedata><tw-passagedata pid="113" name="E05" tags="" position="1600,2900" size="100,100">&lt;img src=&quot;https://c.pxhere.com/images/ee/ec/ba655c11e3541880557fff500fa1-1710102.png!d&quot; srcset=&quot;https://c.pxhere.com/images/ee/ec/ba655c11e3541880557fff500fa1-1710102.png!d&quot; alt=&quot;, 무료 이미지 In PxHere&quot;width=&quot;85%&quot;&gt;
+안방 문을 열자, 익숙한 조명 아래 아내가 서 있었다.
+거실 바닥에 차갑게 쓰러져 있던 모습이 아닌, 나를 보며 환하게 웃어주는 
+살아있는 나의 아내였다.
+
+(text-colour:#bac8ff)[&quot;어머, 당신 왜 이래? 얼굴이 왜 이렇게 울상이야... 무슨 일 있었어?&quot;]
+
+아내의 걱정 어린 목소리가 들리자마자 나는 무너지듯 아내를 껴안았다. 
+아내의 몸에서 느껴지는 따스한 온기, 규칙적인 심장 소리, 그리고 살짝 풍기는 익숙한 살냄새. 이 모든 것이 꿈이 아님을 확인하자 참았던 눈물이 터져 나왔다.
+
+(text-colour:#b2f2bb)[&quot;미안해... 내가 정말 잘못했어. 옆에 있어 줘서 고마워. 정말로... 죽을 만큼 보고 싶었어.&quot;]
+
+아이처럼 엉엉 우는 내 모습에 당황한 듯 아내가 내 등을 부드럽게 토닥였다. 
+아내는 아무것도 모른 채, 그저 평소처럼 다정한 목소리로 나를 받아주었다.
+
+(text-colour:#bac8ff)[&quot;이 사람이 오늘따라 왜 이럴까? 나 어디 안 가. 여기 있잖아. 자, 이제 진정하고... 
+씻고 나와요. 당신 좋아하는 국 데워놨으니까.&quot;]
+
+사진 속에서만 웃고 있던 아내가 내 눈앞에서 살아 움직인다. 비록 아내는 
+내가 겪은 그 지옥 같은 시간을 알지 못하겠지만, 그녀가 살아있다는 사실 하나만으로도 
+이제 충분했다. 나는 그녀를 사랑하는 마음을 확인했고, 이제는 그 마음을 
+숨기지 않고 표현하며 살아가리라 다짐했다.
+
+
+{
+[(link: &quot;이제 그만 게임을 끝낸다.&quot;)[
+    (go-to: &quot;CR&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="114" name="E06" tags="" position="1700,2900" size="100,100">드디어 아내가 내 눈앞에 멀쩡히 살아있다. 이제 더 이상 아내를 떠나보내지 않아도
+된다는 사실에 나도 모르게 눈물이 흘러내렸다. 이번에는 정말로 늦지 않았다.
+
+신호를 넘기고, 망설일 틈에 그냥 몸이 먼저 움직였다. 그걸로 충분한 줄 알았다.
+하지만 지금까지의 나의 과오가 한번에 터지듯이, 아내는... 
+나를 더이상 따듯하게 바라보지 않았다.
+
+아, 그렇구나. 나는 이제 여기까지라는걸 단번에 알아챘다. 그리고 붙잡을 타이밍이 없다는것도
+너무나도 잘 알고 있었기에, 더 말을 꺼내지도 않았다. 그때, 아내가 먼저 말을 꺼냈다.
+
+(text-colour:#bac8ff)[&quot;우리... 이제... 여기까지인것 같아... 나도 잘 해보려고 했는데... 힘들더라...&quot;]
+
+그 말을 듣는 순간, 지금까지 제대로 듣지 않았던 말들이, 그제야 떠올랐다.
+끊어버렸던 전화들, 미뤄버린 약속들, 나중으로 넘겨둔 모든 순간들이...
+
+오늘 하나를 맞춘다고 한들, 그 전부가 돌아오는게 아닌것 또한 잘 알고 있었기에...
+내가 지금 이 자리를 떠나기만 한다면, 아내는 계속해서 살아갈 수 있다.
+하지만 나는 아내를 떠나보낸다는거나 다름없다. 이대로 아내를 보내고 싶지 않다.
+
+나는... 어떻게 해야하지...
+
+
+
+{
+[(link: &quot;그래도 내게 다시한번 기회를!&quot;)[
+    (if: not $question and 
+         not $fall and 
+         not $loop1 and 
+         not $loop2 and 
+         not $KnowLoop and 
+         not $alley and 
+         not $LockStory and 
+         not $Maternity and 
+         not $anniversary and 
+         not $Sanniversary and 
+         not $CLockEvent and 
+         not $Goodwife)[
+        (go-to: &quot;S1 - 2&quot;)
+    ]
+    (else:)[
+        (go-to: &quot;S1 - 1001&quot;)
+    ]
+]]
+[(link: &quot;아내는 살았으니 됐어. 미안해... 여보.&quot;)[
+    (go-to: &quot;CR&quot;)
+]]
+}
+</tw-passagedata><tw-passagedata pid="115" name="E07" tags="" position="1800,2900" size="100,100">&lt;img src=&quot;https://c.pxhere.com/images/6b/7d/2fb471738cb3364ebdbc48520d21-1710100.png!d&quot; srcset=&quot;https://c.pxhere.com/images/6b/7d/2fb471738cb3364ebdbc48520d21-1710100.png!d&quot; alt=&quot;, 무료 이미지 In PxHere&quot;width=&quot;90%&quot;&gt;
+아내는 결국 죽었다. 사인은 뇌출혈이었다. 넘어지면서 다친 것이다. 
+나는 아내의 죽음을 막지 못했다. 장례식을 치르는 것이 너무 힘들다. 
+사진 속 아내는 웃고 있다. 최소한 나는 아내가 죽기 전 그녀를 사랑하는 마음을 확인했고, 
+그녀도 알고 있었다고 생각한다.
+
+
+{
+[(link: &quot;아내의 영정을 바라보며, 한 번 만 더 기회를 달라고 한다&quot;)[
+    (go-to: &quot;S39&quot;)
+]]
+
+[(link: &quot;이제 그만 게임을 끝낸다.&quot;)[
+    (go-to: &quot;CR&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="116" name="S301" tags="" position="1675,750" size="100,100">119 상황실 연결은 바로 됐다.
+
+(text-colour:#b2f2bb)[&quot;저희 아내가 집에서 죽었습니다!!&quot;]
+
+(text-colour:#ff922b)[&quot;바로 출동하겠습니다. 집에 계신지요?]
+
+(text-colour:#b2f2bb)[&quot;저도 귀가하는 중입니다.&quot;]
+
+(text-colour:#ff922b)[&quot;집 주소가 어떻게 되시죠?&quot;]
+
+119는 집으로 출발했고, 나도 집으로 가는 도중 전화가 왔다.
+
+(text-colour:#22b8cf)[&quot;선생님, 집 문은 열려있고 지금은 아무도 없습니다만.&quot;]
+
+은은하게 화가난 경찰의 목소리가 수화기 너머로 전해져왔다.
+
+
+(link-goto:&quot;...죄송합니다&quot;, &quot;S215&quot;)</tw-passagedata><tw-passagedata pid="117" name="S306" tags="" position="1775,750" size="100,100">어쩔 수 없이 목적지로 이동했다.
+
+(text-colour:#b2f2bb)[&quot;...손님 저... 도착했습니다.&quot;]
+
+(text-colour:#e03131)[&quot;나를 계속해서 데려다 준 것에 대해서는 내 감사를 표하지. 이건 그 표시네.&quot;]
+
+나는 어떤 보상이 있을 지 이미 알고 있었다. 5만원을 쥐어준 그는 내리려고 했다. 
+그러다 그가 입을 열었다.
+
+(text-colour:#e03131)[&quot;여긴 아까 처음왔던곳 주변인데... 원래 이렇게 빙빙 돌아서 운전하나?&quot;]
+
+...잠깐, 빙빙 돌아서??
+나는 극심한 기시감 속에서도 손에 들린 돈을 바라보았다. 돈도 여전히 많았다.
+
+(text-colour:#e03131)[&quot;자넨 나와 아마도 목적지가 같을 지도 모르겠구만&quot;]
+
+그는 사라졌다.
+
+
+{
+&lt;!-- 1. A4 보유 조건 (첫 번째 행) --&gt;
+(if: $loop2 is true)[
+    (link-goto: &quot;이 손님은 분명 뭔가를 알고 있는 거야.&quot;, &quot;S206 - 1&quot;)
+]
+
+&lt;!-- 2. R2 보유 조건 (두 번째 행) --&gt;
+(if: $LoopN is 2)[
+    (link-goto: &quot;목적지가...같다고?&quot;, &quot;S215&quot;)
+]
+
+&lt;!-- 3. 기본 선택지 (세 번째 행) --&gt;
+(link-goto: &quot;기분 탓인가?&quot;, &quot;S1 - 7&quot;)
+}</tw-passagedata><tw-passagedata pid="118" name="S309" tags="" position="1675,850" size="100,100">{
+&lt;!-- &#39;getPrepared&#39;라는 변수가 false(거짓)일 때만 실행 --&gt;
+(if: $getPrepared is not true)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 아내 정말 천사]&lt;/div&gt;
+    
+    &lt;!-- 획득했으므로 변수를 true로 변경하여 다음엔 안 뜨게 함 --&gt;
+    (set: $getPrepared to true)
+]
+}
+보도블럭 끝에서 뭔가를 기다리는 듯, 휠체어를 탄 손님은 어디로 가는지는 말하지 않고 
+그저 빙긋 웃고 있었다.
+
+나는 문득 지난 일이 떠올랐다.
+
+아내와 길을 걷던 중이었다. 건널목에 서 있던 휠체어에 탄 남성이 신호가 바뀌어도 
+쉽게 앞으로 가지 못하고 있었다. 녹색불인데도 차들은 슬금슬금 횡단보도를 지나고 있었고, 
+휠체어의 사내는 행여나 보도블럭 틈에서 휠체어가 미끄러질까 봐 쩔쩔매는 듯했다.
+아내는 망설임없이 휠체어 뒷부분의 핸들을 잡았다.
+
+(text-colour:#bac8ff)[&quot;실례합니다&quot;] 아내는 한 마디 말만 하고는 핸들을 당겨 휠체어를 틈새에서 빼고 
+성큼성큼 횡단보도로 걸어 나갔다. 차들은 횡단보도 신호가 빨간색으로 변했는데도 
+그 위를 지나가지 못했다. 그녀는 건너편에서 사내와 인사를 나누고는 나를 돌아보았다. 
+꽃집 앞에 놓인 팬지들과 참 잘 어울린다는 생각이 들었다.
+
+건널목이 낯익다고 생각했을 때, 손님은 나드리콜 택시에 오르고 있었고, 
+나는 손님을 도와주기 위해 콜 기사와 함께 휠체어를 차에 실었다.
+
+
+{
+(link: &quot;취객을 신고해주러 가야겠다&quot;)[
+    (set: $Goodwife to true)
+    
+    (set: $relationship to it + 1)
+    
+    (go-to: &quot;S1 - 100&quot;)
+]
+}</tw-passagedata><tw-passagedata pid="119" name="S200 - 5" tags="" position="1925,475" size="100,100">{
+&lt;!-- &#39;getPrepared&#39;라는 변수가 false(거짓)일 때만 실행 --&gt;
+(if: $getPrepared is not true)[
+    &lt;div class=&quot;item-get&quot; style=&quot;animation-delay: 5s;&quot;&gt;⊙[획득: 결혼 행진곡]&lt;/div&gt;
+    
+    &lt;!-- 획득했으므로 변수를 true로 변경하여 다음엔 안 뜨게 함 --&gt;
+    (set: $getPrepared to true)
+]
+}
+(text-colour:#bac8ff)[&quot;...여보? 오늘 무슨 날인지 알지?&quot;]
+
+안다고 해야 하나, 그냥 솔직하게 물어보는 게 좋을까?
+
+(text-colour:#b2f2bb)[&quot;......&quot;]
+
+(text-colour:#bac8ff)[&quot;어디 아픈 건 아니지?&quot;]
+
+머뭇거리는 사이 전화기 너머로 씁쓸한 목소리가 들려왔다.
+
+(text-colour:#bac8ff)[&quot;몇 주년인지는 안 세어도 오늘은 기억하고 있으면 좋잖아···.&quot;]
+
+아, 이제서야 오늘이 나와 아내에게 어떤 의미가 있는지 떠오른다.
+
+
+{
+[(link: ...&quot;결혼기념일!!!!&quot;)[
+    (set: $anniversary to true)
+    
+    (set: $relationship to it + 1)
+    
+    (go-to: &quot;S3&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="120" name="S4 - 2" tags="" position="1925,625" size="100,100">이제는 익숙하게 느껴지는 손님이 탑승한다.
+매번 내 택시를 타고, 이상한 요구를 했던 손님.
+
+혹시 이 사람이 뭔가 알고 있지않을까? 그렇지않더라도 
+이 사람을 통해서 뭔가 알아낼 수 있으면...
+
+아니.
+&#39;뭐라도 알아내서 이 상황을 벗어나야 돼.&#39;
+그렇게 다짐한 나는 백미러를 통해 뒷자리를 잠시 흘겨보았다.
+
+[(link-goto:&quot;운전을 시작한다&quot;,&quot;S205&quot;)]</tw-passagedata><tw-passagedata pid="121" name="S5 - 1-2" tags="" position="1800,1000" size="100,100">(text-colour:#e03131)[&quot;김 기사, 궁금한 게 많았을 테지&quot;]
+
+그는 나를 매우 잘 알고있는 것 처럼 말을 내뱉았다. 나는 다시 머릿속이 복잡해졌다. 
+처음...은 아니지만 택시에 탈 때부터 나를 알아보다니. 하지만 원망은 들지 않았다. 
+
+그저 단순한 사실이 궁금해졌다.
+
+
+{
+(link: &quot;당신은... 반복이 아닌가보군.&quot;)[
+    (go-to: &quot;S5 - 1-3&quot;)
+]
+
+(link: &quot;너는...이 상황이 뭔지 아는 것 같네.&quot;)[
+    (go-to: &quot;S5 - 1-3&quot;)
+]
+
+(link: &quot;지금 무슨 장난을 치고 있는 거야?&quot;)[
+    (go-to: &quot;S5 - 1-3&quot;)
+]
+}</tw-passagedata><tw-passagedata pid="122" name="S5 - 1-3" tags="" position="1800,1125" size="100,100">(text-colour:#e03131)[&quot;중요한 건 그게 아니야. 김 기사, 중요한 건 그게 아니라고&quot;]
+
+그는 알 수 없는 말을 했다. 그렇다면 중요한 것은 무엇이라는 말일까. 
+아니, 애시당초 이 손님은 누구라는 말인가. 대체 나는 어디서부터 어디까지를 
+이해하고 있는 것일까? 그는 얼마나 더 알고 있는 것일까?
+
+(text-colour:#e03131)[&quot;자네가 생각하는 건 정말 별로 중요한 것이 아니라네. 내가 누구인지,
+지금 무슨 일인지... 자네, 정말 중요한 것은 왜 자네가 이것을 하고 있느냐야. 
+다른 것들은 중요하지 않아.&quot;]
+
+나는 혼란스러워졌다. 이 손님이 이 일을 벌인 것일까. 
+
+(text-colour:#e03131)[&quot;내가 준 이 기회들 속에서 자네는 무슨 일을 했나? 기회 말이야&quot;]
+
+
+
+{
+(link: &quot;기회라니, 무슨 개소리야. 내 아내가 죽는게 기회야?!&quot;)[
+    (go-to: &quot;S5 - 1-4&quot;)
+]
+
+(link: &quot;이게 다 당신이 벌인 일이라는거야?&quot;)[
+    (go-to: &quot;S5 - 1-4&quot;)
+]
+
+(link: &quot;이 일의 원인이 나 때문이라는 거야?&quot;)[
+    (go-to: &quot;S5 - 1-4&quot;)
+]
+}</tw-passagedata><tw-passagedata pid="123" name="S5 - 1-4" tags="" position="1800,1250" size="100,100">(text-colour:#e03131)[&quot;비슷하지. 이 상황을... 자네는 기회라고 생각해 볼 수는 없었겠나?&quot;]
+
+기회? 사실 한 번도 그렇게 생각해 본 적은 없는 것 같다. 
+나는 이 반복 속에서 많은 노력을 했다고 생각했지만, 욕심을 부린 적도 있었고, 
+어리석게도 계속되는 선택을 하기도 했다.
+
+(text-colour:#b2f2bb)[&quot;헛소리 하지마..제발 부탁이야. 내 아내를 살릴 길은 없는거야?&quot;]
+
+나는 애원했다.
+
+(text-colour:#e03131)[&quot;흥분하지 마. 자네는 어떤 하루들을 살았나?&quot;]
+
+그는 나를 비웃는 듯 물어보았다.
+
+
+{
+(link: &quot;난 다 해봤어. 모든 걸 다 해봤다고!&quot;)[
+    (go-to: &quot;S5 - 1-5&quot;)
+]
+
+(link: &quot;이거 가상현실, 생체실험 뭐 그런거야?&quot;)[
+    (go-to: &quot;S5 - 1-5&quot;)
+]
+
+(link: &quot;이게 장난이라면 제발 그만둬. 이제 슬슬 무섭다고!&quot;)[
+    (go-to: &quot;S5 - 1-5&quot;)
+]
+}</tw-passagedata><tw-passagedata pid="124" name="S5 - 1-5" tags="" position="1800,1375" size="100,100">(text-colour:#e03131)[&quot;다시, 흥분하지 말고 자네의 하루를 말해보게. 어땠나?&quot;]
+
+나는 내가 겪은 일이 하루인지, 하루가 아닌지부터 생각해야 했지만 
+그가 재차 내게 물어오자 마음이 안정되는 것 같았다.
+
+나는 지금까지의 행적을 돌아보며, 내가 한 일들이 어떤 것들이었는지 생각해보았다.
+
+
+{
+(link: &quot;나는... 최대한 착하게 굴려고 노력했어.&quot;)[
+    (go-to: &quot;S5 - 1-6&quot;)
+]
+
+(link: &quot;나는 최대한 집에 빠르게 가보려고 했어.&quot;)[
+    (go-to: &quot;S5 - 1-6&quot;)
+]
+
+(link: &quot;솔직히 난... 아내를 살리려는 노력을 충분히 못했어...&quot;)[
+    (go-to: &quot;S5 - 1-6&quot;)
+]
+}</tw-passagedata><tw-passagedata pid="125" name="S5 - 1-6" tags="" position="1800,1500" size="100,100">(text-colour:#b2f2bb)[&quot;하지만 나는 충분히 했어. 정말 충분히 한 것 같아. 아니야. 모자란 걸까. 
+나는 조금 더 좋은 사람이 될 수 있었을까....&quot;]
+
+나는 거의 혼잣말을 하듯 물었다.
+
+(text-colour:#b2f2bb)[&quot;내가 조금 더, 조금 더 나은 사람이었다면... 아내를 살릴 수 있었을까?&quot;]
+
+나는 경찰에 잡혀가는 편이 낫겠다는 생각이 들었다. 물론 잡혀갈 수만 있다면...
+
+(text-colour:#e03131)[&quot;껄껄. 사실 자네는 다 왔다네. 필요한 행동을 하게&quot;]
+
+나는 뒤로 거칠게 돌아보았지만. 그는 사라져있었다. 창 밖으로 휠체어를 탄 손님이 보였다.
+
+(text-colour:#b2f2bb)[&quot;...&quot;]
+
+
+[(link-goto:&quot;조용히 휠체어 앞에 차를 댄다&quot;,&quot;S9 - 2&quot;)]
+
+
+
+
+</tw-passagedata><tw-passagedata pid="126" name="S4 - 3" tags="" position="1925,750" size="100,100">나는 결국 막힌 도로를 피해 차를 돌렸다.
+
+(text-colour:#b2f2bb)[&quot;하...&quot;]
+
+한숨을 쉬며 도로를 지나가던 순간, 익숙한 모습이 눈에 들어온다.
+묘한 분위기와 완전히 검은 복식... 행선지를 연달아 바꾸던 그 손님이다.
+
+본능적으로 쳐다본 얼굴에는 웃음이 살짝 보인 것 같았다.
+
+
+[(link-goto:&quot;차를 세운다&quot;,&quot;S4 - 2&quot;)]</tw-passagedata><tw-passagedata pid="127" name="S9 - 2" tags="" position="1800,1625" size="100,100">복잡한 마음을 누르며 택시를 휠체어 가까이 옮긴 후 내렸다.
+
+(text-colour:#b2f2bb)[&quot;손님, 택시 잡으시려는거죠?&quot;]
+
+내가 자연스럽게 손님을 도우려하고 있다는 것을 깨닫는 데는 오래걸리지 않았다.
+이것도 익숙해져서인지, 아니면 아내의 행동이 생각나서인지...
+혼자 괜한 생각을 하고있으니 옆에서 말을 걸어왔다.
+
+(text-colour:#2f9e44)[&quot;감사합니다, 아무래도 큰 택시를 잡아야 할 것 같아요.&quot;]
+
+부드럽게 웃으며 감사를 전한 손님은 자연스럽게 말을 이어갔다.
+
+(text-colour:#2f9e44)[&quot;여름에도 꽃이 참 예쁘네요. 꽃이 어울리는 일이 있으면 참 좋겠어요.&quot;]
+
+
+{
+[(link: &quot;아내에게 조심히 다니라고 당부해야겠다&quot;)[
+    (go-to: &quot;S41&quot;)
+]]
+
+[(link: &quot;손님을 나드리콜에 태워드려야겠어&quot;)[
+    (go-to: &quot;S33&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="128" name="S33" tags="" position="1725,1750" size="100,100">손님을 태워드린 후에 잠시 숨을 돌렸다.
+방금 전 손님이 칭찬했던 꽃집이 보이자 지나간 대화가 떠오르는 것 같다.
+
+(text-colour:#b2f2bb)[‘꽃이 어울리는...’]
+
+꽃다발이라도 사야하나 싶은 생각이 들던 차, 꽃다발을 들고 가게를 나오고 있는 아내가 보인다.
+
+
+{
+[(link: &quot;걸어간다&quot;)[
+    (go-to: &quot;S34&quot;)
+]]
+
+[(link: &quot;지켜본다&quot;)[
+    (go-to: &quot;S35&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="129" name="S41" tags="" position="1875,1750" size="100,100">(text-colour:#bac8ff)[&quot;여보세요?&quot;]
+
+길거리인지, 생기있는 아내의 목소리가 주변의 소음과 조금 섞였다.
+
+(text-colour:#b2f2bb)[&quot;밖이야?&quot;]
+
+(text-colour:#bac8ff)[&quot;나 잠깐 나왔지. 무슨 일 있어?&quot;]
+
+이상하게 불안한 느낌... 앞뒤없이 말을 뱉어버린다.
+
+(text-colour:#b2f2bb)[&quot;거, 빨리 집 좀 들어가.&quot;]
+
+잠시 침묵이 흘렀다. 기분이 상한 듯 가라앉은 말투가 들려온다.
+
+(text-colour:#bac8ff)[&quot;...왜 그러는데? 나 나온지 얼마 안 됐어.&quot;]
+
+
+[(link-goto:&quot;당장 집에 들어가있어! 내가 집으로 갈테니까!!&quot;,&quot;E06&quot;)]</tw-passagedata><tw-passagedata pid="130" name="CR" tags="" position="1650,3025" size="100,100">&lt;img src=&quot;https://c.pxhere.com/images/3a/97/c8fddaee8c5cab2a07319ca8e0da-1710104.png!d&quot; srcset=&quot;https://c.pxhere.com/images/3a/97/c8fddaee8c5cab2a07319ca8e0da-1710104.png!d&quot; alt=&quot;신용, 무료 이미지 In PxHere&quot;width=&quot;95%&quot;&gt;
+
+&lt;div style=&quot;text-align: center; margin-top:&quot;&gt;
+    [(link-goto:&quot;타이틀로&quot;,&quot;타이틀&quot;)]</tw-passagedata><tw-passagedata pid="131" name="S34" tags="" position="1725,1875" size="100,100">(text-colour:#b2f2bb)[‘매번 여기서 꽃다발을 산걸까...’]
+나는 자연스럽게 아내에게 걸어갔다. 고마운 마음 한켠에 미안함이 서리는 것 같다.
+
+그 순간, 이상한 차가 빠른 속도로 아내 옆을 지나쳐갔고 아내가 놀라 그대로 넘어진다.
+...!
+반사적으로 아내에게 뛰어가기 시작했다. 부축하며 다급히 상태를 확인한다.
+
+(text-colour:#b2f2bb)[“당신 괜찮아?!”] 
+
+(text-colour:#bac8ff)[“여, 여보... 어떻게 여기있어?”]
+
+당황스러운 말투였지만 조금은 안도감이 느껴지는 표정이었다.
+
+
+{
+[(link: &quot;그냥 지나는 길이야&quot;)[
+    (go-to: &quot;S38&quot;)
+]]
+
+[(link: &quot;우리 결혼기념일이잖아&quot;)[
+    (go-to: &quot;S37&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="132" name="S35" tags="" position="1875,1875" size="100,100">(text-colour:#b2f2bb)[‘매번 저기서 꽃다발을 산건가?’]
+나는 잠시 아내를 지켜보다가 택시에 탑승하러간다.
+
+그 순간, 이상한 차가 빠른 속도로 아내 옆을 지나간다.
+아내는 놀라며 그대로 넘어졌지만 얼마 지나지않아 옷을 털며 일어나고 있었다.
+
+(text-colour:#b2f2bb)[‘괜찮은거겠지?‘]
+신경쓰이지만 택시를 운행하는 것도 중요하다... 택시를 다시 출발시킨다.
+
+
+{
+[(link: &quot;택시에 탑승한다&quot;)[
+    (go-to: &quot;S38&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="133" name="S37" tags="" position="1725,2000" size="100,100">(text-colour:#b2f2bb)[&quot;...우리 결혼기념일이잖아.&quot;]
+
+조금 낯간지럽긴 했지만, 나는 아내와 함께 꽃집에 들러 팬지를 샀다.
+
+(text-colour:#bac8ff)[&quot;난 당신이 이젠 날 사랑하지 않는 줄 알았어. 너무 감동적이야…&quot;]
+
+아내는 참았던 눈물을 터뜨렸다.
+
+(text-colour:#b2f2bb)[&quot;앞으로는 기념일도 잘 챙기고 더 잘할게. 그동안 너무 무심했던 것 같아 미안해.&quot;]
+
+난 왜 진작 이러지 못했을까. 가슴 한구석이 벅차오르는 뿌듯함을 안고 다시 운전대를 잡았다.
+이대로만 하면 다시 행복해질 수 있을 거라 믿었다.
+(text-colour:red)[//...아내가 다시 쓰러지기 전까지는.//]
+
+
+{
+[(link: &quot;마지막이 될 줄 몰랐던 그 미소를 떠올린다&quot;)[
+    (go-to: &quot;E07&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="134" name="S38" tags="" position="1875,2000" size="100,100">(text-colour:#b2f2bb)[&quot;...그냥 지나가는 길이였어.&quot;]
+
+(text-colour:#bac8ff)[&quot;아, 그래... 일 더해야하는거지? 힘내...&quot;]
+
+아내의 의아한 시선을 뒤로한 채 서둘러 자리를 피했다. 아직 모든 것이 불투명했다. 
+지금 내가 해야 할 일은 감상에 젖는 것이 아니라, 비극의 실마리를 찾는 것이다.
+
+분명 단서가 더 있을거야.
+
+나는 다시 차갑게 식은 운전대를 잡았다. 택시에 다시 탄다. 아내를 살릴 수 있는 방법은 
+이 반복되는 시간 속에 숨겨진 비밀을 밝혀내는 것뿐이다.
+
+
+{
+[(link: &quot;운행을 시작한다&quot;)[
+    (go-to: &quot;S40&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="135" name="S39" tags="" position="1800,2125" size="100,100">나는 넋이 나간 얼굴로 장례식장 안을 둘러보았다.
+
+(text-colour:#b2f2bb)[&quot;결국 또 반복뿐인 건가...&quot;]
+
+내 두 눈에는 생기라곤 찾아볼 수 없었다.
+그 순간, 첫 번째 조문객이 모습을 드러냈다. 놀랍게도 첫 손님이였다.
+나는 그의 앞에 무릎을 꿇고 애원했다. 
+
+(text-colour:#b2f2bb)[&quot;제발 부탁이야. 날 다시 돌려보내줘...&quot;]
+
+제발 딱 한 번만 더 기회를 달라고. 과거로 돌려보내 달라고.
+
+(text-colour:#e03131)[&quot;끌끌... 자네에게는 이제서야 진심이 보이는구만. 그리 원한다면, 이게 정말 마지막이라네&quot;]
+
+그렇게 말하고 그는 손바닥을 나의 눈에 가져다댔다. 왠지 모르게 정신이 멀어지는 느낌이다...
+
+
+{
+[(link: &quot;나에게 한 번만 더 기회를...&quot;)[
+    (if: not $question and 
+         not $fall and 
+         not $loop1 and 
+         not $loop2 and 
+         not $KnowLoop and 
+         not $alley and 
+         not $LockStory and 
+         not $Maternity and 
+         not $anniversary and 
+         not $Sanniversary and 
+         not $CLockEvent and 
+         not $Goodwife)[
+        (go-to: &quot;S1 - 2&quot;)
+    ]
+    (else:)[
+        (go-to: &quot;S1 - 1001&quot;)
+    ]
+]]
+}
+</tw-passagedata><tw-passagedata pid="136" name="S40" tags="" position="1800,2250" size="100,100">나는 손님의 트렁크를 골목 안까지 옮겨주고, 
+
+남산에 올라가는 연인들과 20분 만에 절친이 되는 법을 터득하였다. 
+
+산통을 줄여주는 호흡법을 공부하고 산모를 안내하였고, 
+술에 취한 손님에게 숙취해소제를 건네고 경찰들을 불렀다. 위생봉투를 챙기는 일도 잊지 않았다. 
+
+휠체어를 탄 손님을 능숙히 나드리콜에 태우고, 돌아오는 길에는 학원에 등록해 
+여러가지 것들을 배우기로 했다.
+
+하지만 변하는 것은 아무것도 없었고, 이 생활은 도통 익숙해지지 않았다.
+
+
+{
+[(link: &quot;여보... 나는 어떻게 해야하는거야...?&quot;)[
+    (go-to: &quot;S311&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="137" name="S311" tags="" position="1775,850" size="100,100">아내의 죽음은...도저히 막을 수 없는걸까. 그 어떤 일을 해도 할 수 없는 걸까...
+나는 무너지고 있었다. 화가 치밀어올랐다.
+
+
+{
+[(link: &quot;집으로 돌아가 문을 걷어찼다&quot;)[
+    (go-to: &quot;S1 - 12&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="138" name="S1 - 1001" tags="" position="1700,2375" size="100,100">나는 또 일어났다. 아니, 일어나고 말았다.
+
+어떤 노력을 해도 되지 않는다면, 그냥 오늘을 살며 행복을 느껴도 좋을 것 같다.
+
+완벽하게 행복한 삶은 없다. 내가 찾는 행복들이 모여 오늘의 행복을 이루는 것이다.
+
+나는 현재에 최선을 다 하기로 마음먹고 핸들을 잡았다.
+
+
+{
+[(link: &quot;까짓거 한번 해 보자!&quot;)[
+    (go-to: &quot;S2 - 100&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="139" name="S2 - 100" tags="" position="1800,2375" size="100,100">(text-colour:#b2f2bb)[&quot;... 콜이 잡혔군.&quot;]
+
+핸드폰이 조용하다. 아내의 전화는 오지 않는다.
+
+
+{
+[(link: &quot;첫번째 손님에게로...&quot;)[
+    (go-to: &quot;S7 - 1&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="140" name="S7 - 1" tags="" position="1900,2375" size="100,100">(text-colour:#b2f2bb)[&quot;?! 그 손님이 아니잖아?&quot;]
+
+늘 첫 콜에 타는 그 손님이 아니라 골목까지 가는 손님이 탔다. 
+이상한 일이다. 우선은 콜을 잡았으니 이동해야 한다.
+
+
+{
+[(link: &quot;출발하기&quot;)[
+    (go-to: &quot;S8 - 2&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="141" name="S8 - 2" tags="" position="1700,2500" size="100,100">손님은 골목 안쪽까지 차를 운행할것을 요구하였다.
+
+(text-colour:#b2f2bb)[&quot;당연히 가드려야죠. 정확히 어디까지 가시나요? 차가 못들어가면 제가 도와드리겠습니다.&quot;]
+
+(text-colour:#be4bdb)[&quot;그렇게까지 안하셔도 괜찮은데... 감사합니다.&quot;]
+
+막상 손님을 돕기위해 캐리어를 들었지만 자칫 잘못하면 땅에 떨어뜨릴 정도로
+캐리어의 무게는 생각보다 꽤 많이 무거웠다.
+
+울퉁불퉁한 골목길. 그래 아내와의 추억이 있는. 팬지꽃이 피어있는 골목길이다.
+아내와의 추억을 회상하며 걸으니 힘든 줄도 모르고 손님의 목적지까지 왔다.
+
+
+(text-colour:#be4bdb)[&quot;기사님, 정말 감사합니다! 정말 안그러셔도 됐는데...&quot;]
+
+(text-colour:#b2f2bb)[&quot;아이, 아닙니다. 손님과 짐을 목적지까지 옮겨주는게 기사니까요.&quot;]
+
+(text-colour:#be4bdb)[&quot;다시한번 감사합니다! 조심히 내려가세요!&quot;]
+
+인사를 받고 택시로 돌아가는 길. 땀은 폭포수처럼 쏟아지고 숨은 가빴지만 기분만큼은 좋았다. 나의 기분을 아는지 팬지꽃도 바람에 살랑였다. 
+
+
+{
+[(link: &quot;다음 손님은... 커플이였지?&quot;)[
+    (go-to: &quot;S9 - 2 &quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="142" name="S9 - 2 " tags="" position="1800,2500" size="100,100">커플손님이다.
+
+(text-colour:#b2f2bb)[&quot;남산까지 가시는거 맞으시죠?&quot;]
+
+(text-colour:#15aabf)[&quot;예~ 남산이요~&quot;]
+
+데이트를 하러 남산에 가는것이 들떳는지 뒤에서 서로 웃으면서 서로 이야기를 한다.
+차안이 두 커플의 목소리로 가득 찰 만큼 시끄러워졌다.
+나는 조금 신경이 쓰이지만 목적지를 향해 묵묵하게 운행하고 있을 뿐 이였다.
+
+조옹히 미터기를 끈다.
+
+(text-colour:#15aabf)[&quot;기사님은 남산 가보셨어요?&quot;]
+
+(text-colour:#b2f2bb)[&quot;네, 저도 가봤답니다. 하하... 추억이 있는 곳이죠.&quot;]
+
+나와 아내의 자물쇠... 이번에 가서 새로 하나 달아야겠다. 튼튼하고 녹슬지 않는 것으로...
+
+
+{
+[(link: &quot;산부인과 손님에게 가기위해 고속도로를 탄다&quot;)[
+    (go-to: &quot;S21 - 2&quot;)
+]]
+
+[(link: &quot;지방 간선도로를 탄다&quot;)[
+    (go-to: &quot;S21 - 2&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="143" name="S21 - 2" tags="" position="1900,2500" size="100,100">
+(text-colour:#b2f2bb)[&quot;산모님. 잠시만 기다려주시겠어요?&quot;]
+
+(text-colour:#e64980)[&quot;네...?&quot;]
+
+산모는 당황한듯 보였지만, 나는 조금 더 이동해서 병원 입구까지 차를 가져다 대었다.
+
+(text-colour:#e64980)[&quot;이러지 않으셔도 되는데... 정말 감사합니다...&quot;]
+
+산모의 손을 잡으며 병원으로 들어갔다. 의사와 간호사들이 분주히 움직인다.
+
+(text-colour:#b2f2bb)[&quot;선생님, 잘 좀 부탁드릴게요.&quot;]
+
+(text-colour:#69db7c)[&quot;걱정마세요 아버님. 문제 없을겁니다.&quot;]
+
+의사에게 아버님이라고 듣는것이 멋쩍기도 하고 쑥스럽기도 하다. 
+그렇게 멀어져가는 산모를 바라보다 병원 밖으로 나온다.
+
+
+{
+[(link: &quot;얼른 몸이 불편하신 손님도 챙겨야지.&quot;)[
+    (go-to: &quot; S9 - 2&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="144" name=" S9 - 2" tags="" position="1700,2625" size="100,100">(text-colour:#b2f2bb)[&quot;도와드릴까요, 손님?&quot;]
+
+(text-colour:#2f9e44)[&quot;아... 그럼 부탁드립니다.&quot;]
+
+몸이 불편하신 손님을 택시 뒷자석에 태운 후, 휠체어를 트렁크에 넣는다. 택시는 유유히 목적지를 향해 간다.
+
+잠시 신호에 멈춰있는 중 건너편에서 익숙한 인영이 보인다.
+
+아내다.
+
+
+{
+[(link: &quot;아내를 지나치고 손님을 데리고 간다&quot;)[
+    (go-to: &quot;S51 - 2&quot;)
+]]
+
+[(link: &quot;아내에게 가려고 차를 세운다&quot;)[
+    (go-to: &quot;S51 - 1&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="145" name="S51 - 1" tags="" position="1825,2625" size="100,100">(text-colour:#e3fafc)[&quot;모든 게 준비 됐어&quot;]
+
+뒷좌석을 돌아보니 아무도 없었다.
+
+사람이 있어야 할 자리에 흰색 깃털이 하나 놓여져 있었다.
+
+나는 아내에게 가야한다는 사실을 직감했다.
+
+
+{
+[(link: &quot;아내에게 뛰어간다!&quot;)[
+    (go-to: &quot;S52&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="146" name="S51 - 2" tags="" position="1925,2625" size="100,100">(text-colour:#e3fafc)[&quot;.......됐어&quot;]
+
+누군가 속삭이는 소리가들려왔다. 들릴 듯 말듯 속삭이는 소리.
+
+(text-colour:#e3fafc)[&quot;........준비...됐어&quot;]
+
+소리가 선명하게 들려왔다. 뒷 좌석이었다.
+
+(text-colour:#e3fafc)[&quot;모든 게 준비 됐어&quot;]
+
+나즈막한 음성으로 분명한 말이 들렸다.
+
+
+{
+[(link: &quot;무슨 소리지?&quot;)[
+    (go-to: &quot;S51 - 1&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="147" name="S52" tags="" position="1750,2750" size="100,100">나는 길에서 아내를 끌어안았다.
+
+(text-colour:#bac8ff)[&quot;당신 미친거야? 왜이래 갑자기.&quot;]
+
+아내는 소스라치듯 놀라 내게 물었지만, 나는 한참동안 아내를 끌어안고 있었다. 
+눈에서는 눈물이 흘러나왔다.
+
+(text-colour:#b2f2bb)[&quot;여보 사랑해. 결혼 기념일 축하해.&quot;]
+
+나는 품에서 아내를 놓고, 얼굴을 보았다. 아직 어리둥절 한 표정이었다.
+
+(text-colour:#b2f2bb)[&quot;팬지꽃을 사러 가던 중이었어. 결혼 기념일을 자주 챙겼어야 했는데 미안해.&quot;]
+
+그제서야 아내는 웃었다.
+
+(text-colour:#bac8ff)[&quot;싱거운 인간, 오늘은 뭘 잘못먹은 거야. 알겠어. 집에서 봐.&quot;]
+
+아내는 골목을 돌아 사라졌고, 나는 다시 택시로 향했다.
+
+
+{
+[(link: &quot;택시를 몰아 꽃을 사러 간다&quot;)[
+    (go-to: &quot;S12 - 1&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="148" name="S12 - 1" tags="" position="1875,2750" size="100,100">그렇게 팬지꽃을 두 송이 사서 집으로 돌아갔다. 이번에는 어떻게 될까...
+걱정 반, 기대 반으로 들어선 집. 집에 들어갔을때 뭔가 느낌이 좋지 않았다.
+
+방문이 열려있다. 나는 불안한 마음이 들었다. 손에 들린 팬지를 식탁위에 놓고 안방으로 향했다.
+안방에서는 아무 소리도 들리지 않는다. 나는 정말 구제불능인 것일까?
+
+(text-colour:#b2f2bb)[&#39;설마... 이번에도...?&#39;]
+그런 걱정과 불안이 함께 밀려오며 떨리는 손으로 문을 천천히 열어보았다...
+
+
+{
+[(link: &quot;제발...&quot;)[
+    (go-to: &quot;E05&quot;)
+]]
+}</tw-passagedata><tw-passagedata pid="149" name="S2001" tags="" position="1500,675" size="100,100">첫번째 손님... 처음부터 알 수 없는 말만 계속 하는게 뭔가 이상하다.
+말투는 둘째치고 나에게 무언가 바라는부분이 있는 것 처럼...
+
+우선 이 손님에 대해서 먼저 알아봐야한다.
+
+그래야만 내가 이 반복되는 하루 속에서 빠져나갈 방법도 알게 될 것이다.
+
+
+[(link-goto:&quot;첫 손님을 태우고 운전한다&quot;,&quot;S205&quot;)]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim

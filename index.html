@@ -466,7 +466,7 @@ PC방을 가득 메운다. 나는 자리에 앉아 할만한 게임을 찾는다
 (text-colour:#b2f2bb)[&quot;네, 여ㄱ... 어이쿠!&quot;]
 
 술집 사장님에게 5천원을 건네려는 순간, 손에서 5천원이 흘러내리며
-셀프바 뒤로 빠져버리고 말았다.
+셀프바의 국물통 속으로 빠져버리고 말았다.
 
 (text-colour:#b2f2bb)[&quot;아이고.. 이거 죄송합니다...&quot;]
 
@@ -2291,7 +2291,7 @@ if (window.bgmPlayer) {
 &lt;!-- 1. 돈 표시 영역--&gt;
 (unless: (passage:)&#39;s tags contains &quot;hide-score&quot;)[
     &lt;div class=&quot;top-bar&quot;&gt;
-    (if: $money &gt; 0)[
+    (if: $money &gt; 0 or $LoopN &gt;= 1)[
         (if: $LoopN &gt;= 2)[
              $LoopN회차ㅤ│ㅤ
         ]
